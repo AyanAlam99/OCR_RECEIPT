@@ -1,0 +1,450 @@
+{
+  "ground_truth": {
+    "total_evaluated": 19,
+    "store_accuracy": 0.737,
+    "date_accuracy": 0.842,
+    "total_accuracy": 0.737,
+    "items_avg_f1": 0.427,
+    "items_avg_precision": 0.417,
+    "items_avg_recall": 0.453,
+    "per_file": [
+      {
+        "file": "0",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "predicted": {
+          "store": "WAL*MART",
+          "date": "08/20/10",
+          "total": "5.11",
+          "item_count": 2
+        },
+        "ground_truth": {
+          "store": "WAL-MART",
+          "date": "08/20/10",
+          "total": "5.11",
+          "item_count": 2
+        }
+      },
+      {
+        "file": "1",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "predicted": {
+          "store": "TRADER JOE's",
+          "date": "06-28-2014",
+          "total": "38.68",
+          "item_count": 18
+        },
+        "ground_truth": {
+          "store": "TRADER JOE'S",
+          "date": "06-28-2014",
+          "total": "38.68",
+          "item_count": 18
+        }
+      },
+      {
+        "file": "10",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.294,
+          "recall": 0.357,
+          "f1": 0.323
+        },
+        "predicted": {
+          "store": "SPAR",
+          "date": "23.02.21",
+          "total": "338.16",
+          "item_count": 17
+        },
+        "ground_truth": {
+          "store": "SPAR",
+          "date": "23/02/21",
+          "total": "338.16",
+          "item_count": 14
+        }
+      },
+      {
+        "file": "11",
+        "store_correct": true,
+        "date_correct": false,
+        "total_correct": true,
+        "items": {
+          "precision": 0.917,
+          "recall": 0.917,
+          "f1": 0.917
+        },
+        "predicted": {
+          "store": "WHOLE FOODS",
+          "date": null,
+          "total": "45.44",
+          "item_count": 12
+        },
+        "ground_truth": {
+          "store": "WHOLE FOODS MARKET",
+          "date": null,
+          "total": "45.44",
+          "item_count": 12
+        }
+      },
+      {
+        "file": "12",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "predicted": {
+          "store": "WAL*MART",
+          "date": "10/20/07",
+          "total": "18.75",
+          "item_count": 3
+        },
+        "ground_truth": {
+          "store": "WAL-MART",
+          "date": "10/20/07",
+          "total": "18.75",
+          "item_count": 3
+        }
+      },
+      {
+        "file": "8",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "predicted": {
+          "store": "COSTCo WHOLESALE",
+          "date": "04/20/2016",
+          "total": "89.13",
+          "item_count": 9
+        },
+        "ground_truth": {
+          "store": "COSTCO",
+          "date": "04/20/2016",
+          "total": "89.13",
+          "item_count": 9
+        }
+      },
+      {
+        "file": "9",
+        "store_correct": false,
+        "date_correct": true,
+        "total_correct": false,
+        "items": {
+          "precision": 0.778,
+          "recall": 0.583,
+          "f1": 0.667
+        },
+        "predicted": {
+          "store": "Winc S",
+          "date": "09/08/14",
+          "total": "243.84",
+          "item_count": 27
+        },
+        "ground_truth": {
+          "store": "WinCo Foods",
+          "date": "09/08/14",
+          "total": "121.92",
+          "item_count": 36
+        }
+      },
+      {
+        "file": "X00016469612",
+        "store_correct": false,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.667
+        },
+        "predicted": {
+          "store": "BOOK TA K (TAMAN DAYA) SDN BHD",
+          "date": "25/12/2018",
+          "total": "9.00",
+          "item_count": 2
+        },
+        "ground_truth": {
+          "store": "BOOK TALK (TAMAN DAYA) SDN BHD",
+          "date": "25/12/2018",
+          "total": "9.00",
+          "item_count": 1
+        }
+      },
+      {
+        "file": "X51005268400",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "RESTORAN HASSANBISTRO",
+          "date": "12/28/2017",
+          "total": "15.00",
+          "item_count": 0
+        },
+        "ground_truth": {
+          "store": "RESTORAN HASSANBISTRO",
+          "date": "12/28/2017",
+          "total": "15.00",
+          "item_count": 1
+        }
+      },
+      {
+        "file": "X51005268408",
+        "store_correct": false,
+        "date_correct": true,
+        "total_correct": false,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "TAMAN BERKELEY",
+          "date": "20-11-17",
+          "total": "169.78",
+          "item_count": 0
+        },
+        "ground_truth": {
+          "store": "99 SPEED MART",
+          "date": "20-11-17",
+          "total": "169.80",
+          "item_count": 5
+        }
+      },
+      {
+        "file": "X51005361883",
+        "store_correct": false,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "predicted": {
+          "store": "SELANGOR DARUL EHSAN",
+          "date": "18/01/2018",
+          "total": "4.90",
+          "item_count": 2
+        },
+        "ground_truth": {
+          "store": "TEO HENG STATIONERY & BOOKS",
+          "date": "18/01/2018",
+          "total": "4.90",
+          "item_count": 2
+        }
+      },
+      {
+        "file": "X51005361950",
+        "store_correct": false,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "TAMAN BERKELEY",
+          "date": "24-01-18",
+          "total": "2.50",
+          "item_count": 0
+        },
+        "ground_truth": {
+          "store": "99 SPEED MART",
+          "date": "24-01-18",
+          "total": "2.50",
+          "item_count": 2
+        }
+      },
+      {
+        "file": "X51005442382",
+        "store_correct": true,
+        "date_correct": false,
+        "total_correct": true,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "UNIHAKKA INTERNATIONAL SDN BHD",
+          "date": null,
+          "total": "6.60",
+          "item_count": 1
+        },
+        "ground_truth": {
+          "store": "UNIHAKKA INTERNATIONAL SDN BHD",
+          "date": "20/03/2018",
+          "total": "6.60",
+          "item_count": 1
+        }
+      },
+      {
+        "file": "X51005444040",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "BENS INDEPENDENT GROCER SDN. BHD",
+          "date": "09/03/18",
+          "total": "133.70",
+          "item_count": 5
+        },
+        "ground_truth": {
+          "store": "BENS INDEPENDENT GROCER",
+          "date": "09/03/18",
+          "total": "133.70",
+          "item_count": 2
+        }
+      },
+      {
+        "file": "X51005577192",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "EAGLE ENTERPRISE",
+          "date": "04/12/2017",
+          "total": "7.00",
+          "item_count": 3
+        },
+        "ground_truth": {
+          "store": "FY EAGLE ENTERPRISE",
+          "date": "04/12/2017",
+          "total": "7.00",
+          "item_count": 1
+        }
+      },
+      {
+        "file": "X51005663277",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": false,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "SYARIKAT PERNIAGAAN GIN KEE",
+          "date": "02/12/2017",
+          "total": "28.00",
+          "item_count": 1
+        },
+        "ground_truth": {
+          "store": "SYARIKAT PERNIAGAAN GIN KEE",
+          "date": "02/12/2017",
+          "total": "29.68",
+          "item_count": 1
+        }
+      },
+      {
+        "file": "X51005712038",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": true,
+        "items": {
+          "precision": 0.429,
+          "recall": 0.75,
+          "f1": 0.545
+        },
+        "predicted": {
+          "store": "SWC ENTERPRISE SDN BHD",
+          "date": "28/03/2018",
+          "total": "30.00",
+          "item_count": 7
+        },
+        "ground_truth": {
+          "store": "SWC ENTERPRISE SDN BHD",
+          "date": "28/03/2018",
+          "total": "30.00",
+          "item_count": 4
+        }
+      },
+      {
+        "file": "X51005806678",
+        "store_correct": true,
+        "date_correct": true,
+        "total_correct": false,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "KAISON FURNISHING SDN BHD",
+          "date": "29-01-18",
+          "total": "7.838",
+          "item_count": 5
+        },
+        "ground_truth": {
+          "store": "KAISON FURNISHING SDN BHD",
+          "date": "29/01/18",
+          "total": "7838.80",
+          "item_count": 3
+        }
+      },
+      {
+        "file": "X51005806719",
+        "store_correct": true,
+        "date_correct": false,
+        "total_correct": false,
+        "items": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "predicted": {
+          "store": "SATU KAMPUNG ENTERPRISE SDN BHD",
+          "date": null,
+          "total": "59.43",
+          "item_count": 1
+        },
+        "ground_truth": {
+          "store": "SATU KAMPUNG ENTERPRISE SDN BHD",
+          "date": "13/01/2017",
+          "total": "63.00",
+          "item_count": 1
+        }
+      }
+    ]
+  }
+}
