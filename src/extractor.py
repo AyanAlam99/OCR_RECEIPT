@@ -1,21 +1,5 @@
-"""
-src/extractor.py
-────────────────
-Phase 3 — Spatial Mapping & Heuristic Field Extraction
-
-Responsibilities:
-  - Detect receipt layout (LINEAR vs TABULAR)
-  - Extract: store_name, date, items, total_amount
-  - Each field returned as { value, confidence, ?flag }
-"""
-
 import re
 from typing import Optional
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# CONSTANTS
-# ══════════════════════════════════════════════════════════════════════════════
 
 PRICE_RE = re.compile(r"\$?\s*(\d{1,4}[.,]\d{2,3})")
 
@@ -48,8 +32,8 @@ TOTAL_PREFERRED = [
 ]
 
 ITEM_SKIP_RE = re.compile(
-    r"\b(subtotal|sub\s+total|total|gst|tax|discount|rounding"
-    r"|cash|change|tend|qty|item|description|price|amount"
+    r"\b(subtotal|sub\s+total|total|tota|gst|tax|discount|rounding|adjustment" 
+    r"|cash|change|tend|qty|item|description|price|amount|amt|payable"
     r"|cashier|salesperson|date|time|doc\s*no|invoice)\b",
     re.I,
 )
@@ -57,11 +41,12 @@ ITEM_SKIP_RE = re.compile(
 NON_ITEM_LINE_RE = re.compile(
     r"^\s*\d+\s*@\s*[\d.]"
     r"|^\s*@"
-    r"|\d+\s*(lb|1b|kg|oz)\s*@"        # existing
-    r"|\d+\s*(lb|1b)\s+\d+\s*(lb|1b)"  # ← NEW: "2.51 1b 1 lb" pattern
+    r"|\d+\s*(lb|1b|kg|oz)\s*@"        
+    r"|\d+\s*(lb|1b)\s+\d+\s*(lb|1b)"  
     r"|you\s+saved|was\s+\d"
     r"|\bvoided?\b"
-    r"|\brounding\b|\badjustment\b",
+    r"|\brounding\b|\badjustment\b"
+    r"|@\s*[\d.]+$",
     re.I,
 )
 HEADER_SKIP_RE= re.compile(
@@ -74,7 +59,7 @@ HEADER_SKIP_RE= re.compile(
     r"|returns|purchases|amazon|earn \d|learn more"
     r"|open \d|store #|cashier|salesperson|member"
     r"|entry time|exit time|parking"
-    r"|www\.|\.com|http|shopping card|card redemption"  # ← NEW
+    r"|www\.|\.com|http|shopping card|card redemption" 
     r"|card tend|debit tend|visa tend|tend\b",
     re.I,
 )
@@ -82,7 +67,7 @@ HEADER_SKIP_RE= re.compile(
 PAYMENT_ZONE_RE = re.compile(
         r"\b(cash\s+tend|change\s+due|mcard|visa|debit|account\s*#"
         r"|approval|trans\s*id|validation|payment\s*service"
-        r"|ref\s*#|network|terminal|aid\s|tc#|items\s*sold"
+        r"|ref\s*#|network\s+id|terminal|aid\s|tc#|items\s*sold"
         r"|shop.*?card|bg\s*bal|end\s*bal|gift\s*card)\b",
         re.I
     )
@@ -90,10 +75,6 @@ PAYMENT_ZONE_RE = re.compile(
 # Replaces the old QTY_LINE_RE
 QTY_LINE_RE = re.compile(r"^\s*\d+[\.,]?\d*\s*(pc|pcs|kg|nos|x|@)\b", re.I)
 
-
-# ══════════════════════════════════════════════════════════════════════════════
-# PUBLIC API
-# ══════════════════════════════════════════════════════════════════════════════
 
 def extract_fields(lines: list[dict]) -> dict:
     """Entry point. Returns all four fields with confidence scores."""
@@ -105,22 +86,8 @@ def extract_fields(lines: list[dict]) -> dict:
     }
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# STORE NAME
-# ══════════════════════════════════════════════════════════════════════════════
-
 def _extract_store_name(lines: list[dict]) -> dict:
-    """
-    Score-based extraction — avoids hardcoded word blacklists.
-    Scores each of the top 10 lines on structural signals:
-      + high OCR confidence
-      + mostly alphabetic
-      + ALL CAPS (receipts print store names in caps)
-      + known store match
-      - starts with a digit (address)
-      - contains tel/fax/gst/reg patterns
-      - label:value format (e.g. "Date : 03/02/2018")
-    """
+  
     if not lines:
         return _low_conf_field()
 
@@ -154,8 +121,12 @@ def _extract_store_name(lines: list[dict]) -> dict:
 
         if re.match(r"^\d+", t):
             score -= 0.3
-        if re.search(r"\b(tel|fax|gst|reg|no\.|@|www|\.com|bhd|sdn)\b", t, re.I):
+
+        if re.search(r"\b(tel|fax|gst|reg|no\.|@|www|\.com)\b", t, re.I):
             score -= 0.3
+            
+        if re.search(r"\b(sdn|bhd|llc|inc|ltd|enterprise|hardware|market|trading|network)\b", t, re.I):
+            score += 0.4
         if re.search(r"\d{5,}", t):
             score -= 0.2
         if re.search(r":\s*\S", t):
@@ -181,17 +152,7 @@ def _extract_store_name(lines: list[dict]) -> dict:
     return _field(best_text, conf)
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# DATE
-# ══════════════════════════════════════════════════════════════════════════════
-
 def _extract_date(lines: list[dict]) -> dict:
-    """
-    Three-pass extraction:
-      1. Lines with explicit "Date" label — most reliable
-      2. Lines containing a timestamp (HH:MM) — date+time pairs are very reliable
-      3. Any line matching a date pattern
-    """
     # Pass 1 — explicit label
     for line in lines:
         if re.search(r"\bdate\b", line["text"], re.I):
@@ -218,11 +179,10 @@ def _extract_date(lines: list[dict]) -> dict:
 def _repair_date(text: str) -> str:
     """
     Fix common OCR corruptions in date strings.
-    e.g. "04/2072016" → "04/20/2016"  (missing slash between day and year)
-    e.g. "0420/2016"  → "04/20/2016"
+    e.g. "04/2072016" -> "04/20/2016"  (missing slash between day and year)
+    e.g. "0420/2016"  -> "04/20/2016"
     """
-    # Pattern: digits / 4-6 digits (missing middle slash)
-    # "04/2072016" — after first slash we have 7 digits: should be DD/YYYY
+    # "04/2072016" ,after first slash we have 7 digits: should be DD/YYYY
     repaired = re.sub(
         r"(\d{1,2})([\/\-\.])(\d{1,2})[7lI1\s]?(\d{4})\b",
         r"\1\2\3/\4",
@@ -231,7 +191,6 @@ def _repair_date(text: str) -> str:
     return repaired
 
 def _match_date(line: dict) -> Optional[dict]:
-    # Try original text first
     for pat in DATE_PATTERNS:
         m = pat.search(line["text"])
         if m and _valid_date(m.group(1)):
@@ -244,7 +203,7 @@ def _match_date(line: dict) -> Optional[dict]:
         for pat in DATE_PATTERNS:
             m = pat.search(repaired)
             if m and _valid_date(m.group(1)):
-                # Penalise confidence slightly — date was reconstructed
+                # Penalise confidence slightly , date was reconstructed
                 conf = min(1.0, line["confidence"] * 0.75 + 0.15)
                 return _field(m.group(1), round(conf, 3))
 
@@ -265,11 +224,6 @@ def _valid_date(value: str) -> bool:
     if not ((1 <= a <= 31 and 1 <= b <= 12) or (1 <= b <= 31 and 1 <= a <= 12)):
         return False
     return True
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# TOTAL AMOUNT
-# ══════════════════════════════════════════════════════════════════════════════
 
 def _extract_total(lines: list[dict]) -> dict:
     """
@@ -295,8 +249,6 @@ def _extract_total(lines: list[dict]) -> dict:
     def is_blocked(t: str) -> bool:
         tl = t.lower()
         return any(b in tl for b in HARD_BLOCK)
-
-    # ── Tier 1: Inclusive / Grand / Net ──────────────────────────────────────
     TIER1 = [
         "total sales inclusive",
         "total inclusive",
@@ -320,8 +272,6 @@ def _extract_total(lines: list[dict]) -> dict:
                         prices[-1].replace(",", "."),
                         round(min(1.0, line["confidence"] * 0.85 + 0.15), 3)
                     )
-
-    # ── Tier 2: Plain TOTAL ───────────────────────────────────────────────────
     # Must appear as a word boundary — avoids matching SUBTOTAL
     for line in lines:
         t  = line["text"]
@@ -351,7 +301,7 @@ def _extract_total(lines: list[dict]) -> dict:
                 pass
 
         elif re.search(r"\btax\b", tl) and not re.search(r"\btotal\b", tl):
-            # Skip lines that show a tax RATE (contain %) — not a tax amount
+            # Skip lines that show a tax RATE (contain %) , not a tax amount
             if "%" in line["text"]:
                 # Extract the rate and compute tax from subtotal later
                 rate_match = re.search(r"(\d+\.?\d*)\s*%", line["text"])
@@ -362,7 +312,7 @@ def _extract_total(lines: list[dict]) -> dict:
                         tax_conf = line["confidence"] * 0.75  # computed, penalise
                     except ValueError:
                         pass
-                continue  # don't try price extraction on rate lines
+                continue  
 
         # Normal tax amount line (no %)
         if prices:
@@ -372,7 +322,6 @@ def _extract_total(lines: list[dict]) -> dict:
             except ValueError:
                 pass
         else:
-            # Bare integer fallback — "49" → 0.49
             bare = re.search(r"\b(\d{1,3})\s*$", line["text"])
             if bare:
                 try:
@@ -383,16 +332,15 @@ def _extract_total(lines: list[dict]) -> dict:
 
     if subtotal_val is not None and tax_val is not None:
         computed = round(subtotal_val + tax_val, 2)
-        # Lower confidence — this is derived, not directly read
+        # Lower confidence ,this is derived, not directly read
         conf = round(min(0.85, (subtotal_conf + tax_conf) / 2 * 0.8), 3)
-        return _field(str(computed), conf)
+        return _field(f"{computed:.2f}", conf)
 
     # If subtotal exists but no tax (tax = 0 or not shown)
     if subtotal_val is not None:
         conf = round(min(0.75, subtotal_conf * 0.8), 3)
-        return _field(str(subtotal_val), conf)
+        return _field(f"{computed:.2f}", conf)
 
-    # ── Tier 3: TOTAL SALES / BAL ─────────────────────────────────────────────
     TIER3 = ["total sales", "bal", "balance due", "amount due"]
     for kw in TIER3:
         for line in lines:
@@ -404,8 +352,7 @@ def _extract_total(lines: list[dict]) -> dict:
                         prices[-1].replace(",", "."),
                         round(min(1.0, line["confidence"] * 0.85 + 0.15), 3)
                     )
-
-    # ── Tier 4: Spatial sweep ─────────────────────────────────────────────────
+                
     # Handles: "TOTAL :" label on left, price detached on right
     for line in lines:
         tl = line["text"].lower().strip()
@@ -426,29 +373,25 @@ def _extract_total(lines: list[dict]) -> dict:
                         )
 
     return _low_conf_field()
-# ══════════════════════════════════════════════════════════════════════════════
-# ITEMS
-# ══════════════════════════════════════════════════════════════════════════════
 
 def _normalize_prices(text: str) -> str:
     """
     Fix OCR decimal point corruptions:
     "3 99" → "3.99"  (space where decimal should be)
-    "3,99" is already handled by PRICE_RE
+    "17.5C" → "17.50" (OCR read '0' as 'C')
     """
-    # Pattern: single digit, space, exactly 2 digits, then space/end/letter
-    return re.sub(r"\b(\d)\s(\d{2})\b", r"\1.\2", text)
+    #  Space-to-Decimal fix
+    text = re.sub(r"\b(\d)\s(\d{2})\b", r"\1.\2", text)
+    # Fixes "17.5C" -> "17.50"
+    text = re.sub(r"(\d+[.,]\d)[CcD]\b", r"\g<1>0", text)   
+    
+    # Fixes "55.DC" -> "55.00"
+    text = re.sub(r"(\d+[.,])[CcD]{2}\b", r"\g<1>00", text) 
+    
+    return text
 
 def _extract_items(lines: list[dict]) -> list[dict]:
-    """
-    Detects layout type (LINEAR or TABULAR) then runs the appropriate
-    multi-pattern item extraction:
-
-    LINEAR  — item name and price on the same line
-    TABULAR — price row first, item name on the line below (barcode receipts)
-    SPLIT-2 — item name on one line, price on the next
-    SPLIT-3 — item name / unit-price row / qty×final-price row
-    """
+   
     items   = []
     layout  = _detect_layout(lines)
     n       = len(lines)
@@ -466,8 +409,6 @@ def _extract_items(lines: list[dict]) -> list[dict]:
             break
 
         
-    
-
         if re.match(r"^\s*\d+\s*(ea|pc|lb|kg|x)\s", lower):
             continue
             
@@ -503,7 +444,9 @@ def _extract_items(lines: list[dict]) -> list[dict]:
             math_stripped = re.sub(r"\d+\s*@\s*[\d.]+", "", t)
             math_stripped = re.sub(r"[\d.]+\s*(lb|1b|kg|oz|ea)\s*[@/]\s*[\d.]+", "", math_stripped, flags=re.I)
 
-            # Try to pair with the PREVIOUS line as item name (weight line after item name)
+            math_stripped = re.sub(r"@\s*[\d.]+$", "", math_stripped)
+
+            # Try to pair with the PREVIOUS line as item name 
             prices = PRICE_RE.findall(t)
             if prices and i > 0:
                 prev_t     = lines[i - 1]["text"].strip()
@@ -519,12 +462,12 @@ def _extract_items(lines: list[dict]) -> list[dict]:
                 continue
         if ITEM_SKIP_RE.search(lower):
             continue
-        if not re.search(r"[A-Za-z]", t) :
+        if not re.search(r"[A-Za-z]", t) and layout == "LINEAR" :
             continue
 
         prices = PRICE_RE.findall(t)
 
-        # ── SPLIT-3: name → unit-price row → qty×final-price row ─────────────
+        # name -> unit-price row -> qtyXfinal-price row 
         if not prices and i + 2 < n:
             next_t  = lines[i + 1]["text"].strip()
             next2_t = lines[i + 2]["text"].strip()
@@ -540,8 +483,7 @@ def _extract_items(lines: list[dict]) -> list[dict]:
                     items.append(_item_entry(name, price, line["confidence"]))
                 continue
 
-        # ── SPLIT-2: name only → price on next line ───────────────────────────
-        if not prices and i + 1 < len(lines):
+        if layout == "LINEAR" and not prices and i + 1 < len(lines):
             next_t = lines[i+1]["text"].strip()
             
             # Repair missing decimals in next_t before checking!
@@ -550,7 +492,6 @@ def _extract_items(lines: list[dict]) -> list[dict]:
             
             has_alpha = len(re.findall(r"[A-Za-z]", t)) > 2
             
-            # Robust math-line detection (replaces brittle fullmatch)
             # Allow up to 6 letters (lb, kg, N). Reject if there is any 4+ letter word.
             letter_count = len(re.findall(r"[A-Za-z]", next_t))
             has_long_word = bool(re.search(r"[A-Za-z]{4,}", next_t))
@@ -574,17 +515,27 @@ def _extract_items(lines: list[dict]) -> list[dict]:
         if not prices:
             continue
 
-        # ── TABULAR: price row first, name below ──────────────────────────────
+        # TABULAR: price row first, name below
         m = ITEM_PRICE_RE.match(t)
         name = m.group(1).strip() if m else ""
 
-        if _alpha_ratio(name) < 0.2 and layout == "TABULAR" and i + 1 < n:
-            next_t     = lines[i + 1]["text"].strip()
-            next_alpha = _alpha_ratio(next_t)
+        if _alpha_ratio(name) < 0.3 and layout == "TABULAR" and i + 1 < n:
+            next_t      = lines[i + 1]["text"].strip()
+            next_alpha  = _alpha_ratio(next_t)
+            next2_t     = lines[i + 2]["text"].strip() if i + 2 < n else ""
+            next2_alpha = _alpha_ratio(next2_t)
+            next2_prices = PRICE_RE.findall(next2_t)
+
             if next_alpha > 0.4 and not PRICE_RE.findall(next_t):
                 name = next_t
 
-        # ── LINEAR: price on same line ────────────────────────────────────────
+            # Grab line+2 if it's also text (split name), regardless of capitalization
+            if (next2_alpha > 0.4
+                    and not next2_prices
+                    and not PRICE_RE.findall(next2_t)
+                    and not re.search(r"\b(note|remark)\b", next2_t, re.I)):
+                name = name + " " + next2_t
+
         elif _alpha_ratio(name) < 0.2 and layout == "LINEAR" and i > 0:
             prev_t     = lines[i - 1]["text"].strip()
             prev_alpha = _alpha_ratio(prev_t)
@@ -612,23 +563,20 @@ def _extract_items(lines: list[dict]) -> list[dict]:
 
 
 def _detect_layout(lines: list[dict]) -> str:
-    """
-    Classify receipt as LINEAR or TABULAR by checking whether
-    the first priced line is followed by an alphabetic-only line.
-    """
     for i, line in enumerate(lines):
-        if PRICE_RE.findall(line["text"]):
-            if i + 1 < len(lines):
-                next_t = lines[i + 1]["text"]
-                if _alpha_ratio(next_t) > 0.5 and not PRICE_RE.findall(next_t):
-                    return "TABULAR"
-            return "LINEAR"
+        t = line["text"].strip()
+        prices = PRICE_RE.findall(t)
+        if not prices:
+            continue
+            
+        digit_ratio = len(re.findall(r"\d", t)) / max(len(t), 1)
+        if digit_ratio > 0.4 and i + 1 < len(lines):
+            next_t = lines[i + 1]["text"].strip()
+            if _alpha_ratio(next_t) > 0.4 and not PRICE_RE.findall(next_t):
+                return "TABULAR"
+                
+    # Only return LINEAR if the ENTIRE loop finishes without finding a Tabular pattern
     return "LINEAR"
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# SHARED HELPERS
-# ══════════════════════════════════════════════════════════════════════════════
 
 def _clean_name(name: str) -> str:
     name = re.sub(r"\s+\d{5,}\s*[A-Z]?\s*$", "", name)   # trailing barcode
