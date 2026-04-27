@@ -111,4 +111,3 @@ After extraction, a reconciliation check sums all item prices and compares again
 - Hough transform deskew fails on rotations > 45°
 - Item extraction accuracy drops on heavily photographed (curved/blurry) receipts
 - Receipts with no standard total keyword fall back to mathematical derivation (lower confidence)
-- Items F1 is lower because tax lines and weight-based items are intentionally excluded
