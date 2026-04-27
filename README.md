@@ -27,7 +27,7 @@ OCR_RECEIPT/
 ├── pipeline.py            # Orchestrator tying all phases together
 ├── main.py                # CLI entry point (batch or single image)
 ├── demo_single_run.py     # Debug tool — prints OCR reconstruction
-├── evaluation.py          # Evaluation script (ground truth + heuristic)
+├── evaluation.py          # Evaluation script (ground truth)
 └── requirements.txt
 ```
 
