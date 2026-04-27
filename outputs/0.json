@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "WAL*MART",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "08/20/10",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "BANANAS      000000004011KF",
+      "price": "0.20",
+      "confidence": 0.836
+    },
+    {
+      "name": "FRAP",
+      "price": "5.48",
+      "confidence": 0.868
+    }
+  ],
+  "total_amount": {
+    "value": "5.11",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 5.68,
+      "subtotal": 5.11,
+      "total": 5.11,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

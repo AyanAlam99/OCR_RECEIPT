@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "PoTterS Garden SdN Bhd",
+    "confidence": 0.879
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "AA00007 PLASTIC PLATE",
+      "price": "1.00",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "AA00022 CHINA POT",
+      "price": "15.80",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "AA00016 PLANT",
+      "price": "16.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "AA00016 PLANT",
+      "price": "7.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "NET TOTAL",
+      "price": "39.80",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "2.26",
+    "confidence": 0.297,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 79.6,
+      "subtotal": 39.8,
+      "total": 2.26,
+      "status": "MISMATCH"
+    }
+  }
+}

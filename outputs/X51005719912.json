@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Guardian Health, And Beauty Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "04/03/18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "GDN MC H/W ENC ROM",
+      "price": "5.90",
+      "confidence": 0.623,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GDN MC H/W N/DREAM",
+      "price": "5.90",
+      "confidence": 0.664,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GDN MC H/W N/DREAH",
+      "price": "5.90",
+      "confidence": 0.609,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GST - Rate -GST ExCl - GST Amt",
+      "price": "0.68",
+      "confidence": 0.6,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "12.00",
+    "confidence": 0.496,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 18.38,
+      "subtotal": 12.0,
+      "total": 12.0,
+      "status": "MISMATCH"
+    }
+  }
+}

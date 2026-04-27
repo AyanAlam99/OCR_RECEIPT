@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "MY MYDIN SDN BHD (257229-K)",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "15/01/2018",
+    "confidence": 0.889
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

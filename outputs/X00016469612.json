@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "BOOK TA K (TAMAN DAYA) SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "25/12/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "NO.5:",
+      "price": "55.57",
+      "confidence": 0.593,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "9556939040118 KF MODELLING CLAY KIDDY FISH",
+      "price": "9.00",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "9.00",
+    "confidence": 0.59,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 64.57,
+      "subtotal": null,
+      "total": 9.0,
+      "status": "MISMATCH"
+    }
+  }
+}

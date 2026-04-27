@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "SELANGOR DARUL EHSAN",
+    "confidence": 0.808
+  },
+  "date": {
+    "value": "23/01/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "TP-24         5 - DOUBLE SIDED TISSUE TAPE 18MM",
+      "price": "1.32",
+      "confidence": 0.87
+    },
+    {
+      "name": "DOUBLE SIDED TISSUE TAPE 18MM",
+      "price": "6.60",
+      "confidence": 0.857
+    },
+    {
+      "name": "G SOFT 6ML QUICK DRY CORRECTION PEN",
+      "price": "10.38",
+      "confidence": 0.846
+    }
+  ],
+  "total_amount": {
+    "value": "18.00",
+    "confidence": 0.905,
+    "reconciliation": {
+      "item_sum": 18.3,
+      "subtotal": null,
+      "total": 18.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

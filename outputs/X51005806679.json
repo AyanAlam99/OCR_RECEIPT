@@ -1,0 +1,84 @@
+{
+  "store_name": {
+    "value": "LEE WAH FLORIST SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "02/02/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "PEACOCK YELLOW",
+      "price": "12.00",
+      "confidence": 0.699,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "34.00 STATICE FULL IMP",
+      "price": "144.16",
+      "confidence": 0.72
+    },
+    {
+      "name": "61.48 LILY CONCORDO 2H",
+      "price": "61.48",
+      "confidence": 0.726
+    },
+    {
+      "name": "LILY CONCORDO 2H",
+      "price": "58.00",
+      "confidence": 0.726
+    },
+    {
+      "name": "SNOW WHITE LEAF",
+      "price": "12.72",
+      "confidence": 0.748
+    },
+    {
+      "name": "SNOW WHITE LEAF",
+      "price": "6.36",
+      "confidence": 0.746
+    },
+    {
+      "name": "350 FLORIDA BEAUTY",
+      "price": "3.71",
+      "confidence": 0.735
+    },
+    {
+      "name": "PALM LEAF L",
+      "price": "38.16",
+      "confidence": 0.743
+    },
+    {
+      "name": "PALM LEAF M",
+      "price": "14.31",
+      "confidence": 0.749
+    },
+    {
+      "name": "ROSE INDIA SUPERICIR",
+      "price": "23.32",
+      "confidence": 0.702
+    },
+    {
+      "name": "SUCCULENT L",
+      "price": "50.88",
+      "confidence": 0.748
+    },
+    {
+      "name": "SUCCULENT L",
+      "price": "12.72",
+      "confidence": 0.749
+    }
+  ],
+  "total_amount": {
+    "value": "353.00",
+    "confidence": 0.661,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 437.82,
+      "subtotal": null,
+      "total": 353.0,
+      "status": "MISMATCH"
+    }
+  }
+}

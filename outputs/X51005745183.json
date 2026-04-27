@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "BILLION SIX ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "22/02/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "TG7 7\" HIPS PLATE (50PCS) JP",
+      "price": "63.80",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Master Card",
+      "price": "63.80",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "633.80",
+    "confidence": 0.454,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 127.6,
+      "subtotal": null,
+      "total": 633.8,
+      "status": "MISMATCH"
+    }
+  }
+}

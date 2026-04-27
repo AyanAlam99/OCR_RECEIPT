@@ -1,0 +1,38 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR l00100000056-Fried Ncodle (S)",
+      "price": "2.00",
+      "confidence": 0.843
+    },
+    {
+      "name": "SR 100100000006- Pork",
+      "price": "2.70",
+      "confidence": 0.781
+    },
+    {
+      "name": "SR I00100000015- Vegetable",
+      "price": "2.20",
+      "confidence": 0.857
+    }
+  ],
+  "total_amount": {
+    "value": "6.90",
+    "confidence": 0.996,
+    "reconciliation": {
+      "item_sum": 6.9,
+      "subtotal": null,
+      "total": 6.9,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

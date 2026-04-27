@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "Gerbang Alaf Restaurants Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "18/03/2018",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "Level'6, Bangunan TH, Damansara Uptown3",
+      "price": "39.474",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "L McChicken",
+      "price": "11.10",
+      "confidence": 0.664,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Small Cone",
+      "price": "2.00",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.74",
+    "confidence": 0.598,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 52.57,
+      "subtotal": null,
+      "total": 0.74,
+      "status": "MISMATCH"
+    }
+  }
+}

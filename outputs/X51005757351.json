@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.75
+  },
+  "date": {
+    "value": "24-03-18",
+    "confidence": 0.892
+  },
+  "items": [
+    {
+      "name": "I X",
+      "price": "1.90",
+      "confidence": 0.591,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "14.90",
+    "confidence": 0.598,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1.9,
+      "subtotal": null,
+      "total": 14.9,
+      "status": "MISMATCH"
+    }
+  }
+}

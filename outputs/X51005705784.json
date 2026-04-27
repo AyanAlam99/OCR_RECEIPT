@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "(EDAI BUKU NEW ACHEIVERS",
+    "confidence": 0.814
+  },
+  "date": {
+    "value": "15/09/2017",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "ON ENVOLOPE 4X9 WINDOW 20.S",
+      "price": "10.18",
+      "confidence": 0.87
+    },
+    {
+      "name": "SEASONSHARD COVER BOOK 3007",
+      "price": "12.08",
+      "confidence": 0.869
+    },
+    {
+      "name": "P RWT HARDCOVER FOOLSCAP 300.S 2613B",
+      "price": "8.37",
+      "confidence": 0.87
+    },
+    {
+      "name": "SHARPIE FINE PERMANENT MARKER",
+      "price": "8.68",
+      "confidence": 0.87
+    },
+    {
+      "name": "GOODS SOLD ARE NOT RETURNABLE",
+      "price": "2.72",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "48.00",
+    "confidence": 0.896,
+    "reconciliation": {
+      "item_sum": 42.03,
+      "subtotal": 45.28,
+      "total": 48.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Gerbang Alaf Restaurants Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "18/01/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "evel 6, Bangunan TH, Damansara Uptown3",
+      "price": "39.474",
+      "confidence": 0.652,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "M SpicyDeluxe",
+      "price": "25.40",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "M GrilChicBgr",
+      "price": "12.50",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Small Cone",
+      "price": "1.00",
+      "confidence": 0.653,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "2.20",
+    "confidence": 0.599,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 78.37,
+      "subtotal": null,
+      "total": 2.2,
+      "status": "MISMATCH"
+    }
+  }
+}

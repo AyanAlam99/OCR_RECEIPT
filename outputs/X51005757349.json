@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "GOLDEN KEY MAKER .",
+    "confidence": 0.798
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "1  NORMAL KEY",
+      "price": "16.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "2  NORMAL KEY LONG",
+      "price": "5.00",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "21.00",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 21.0,
+      "subtotal": null,
+      "total": 21.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

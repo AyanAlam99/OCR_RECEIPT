@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "OJC MARKETING SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "15/01/2019",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "KINGS SAFETY SHOES KWD 805",
+      "price": "193.00",
+      "confidence": 0.857
+    }
+  ],
+  "total_amount": {
+    "value": "193.00",
+    "confidence": 0.994,
+    "reconciliation": {
+      "item_sum": 193.0,
+      "subtotal": null,
+      "total": 193.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

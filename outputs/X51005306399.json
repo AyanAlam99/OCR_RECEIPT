@@ -1,0 +1,22 @@
+{
+  "store_name": {
+    "value": "Shell ISNI PETRO TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "18/03/18",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "V-Power 97     RI1",
+      "price": "86.00",
+      "confidence": 0.819
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "14/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "WALK",
+      "price": "0.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Cash",
+      "price": "5.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Change Amount (RM)   Tax (RM)",
+      "price": "4.10",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.90",
+    "confidence": 0.597,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 10.0,
+      "subtotal": null,
+      "total": 0.9,
+      "status": "MISMATCH"
+    }
+  }
+}

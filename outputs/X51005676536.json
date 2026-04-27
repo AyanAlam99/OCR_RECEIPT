@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "02/01/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "Item                 Qty    S/Price  Amount  Tax",
+      "price": "13.57",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "7' X 35# CORRUGATED ROOFING SHEET",
+      "price": "5.30",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "7' X 35 CORRUGATED ROOFING SHEET",
+      "price": "5.30",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "87.80",
+    "confidence": 0.506,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 24.17,
+      "subtotal": null,
+      "total": 87.8,
+      "status": "MISMATCH"
+    }
+  }
+}

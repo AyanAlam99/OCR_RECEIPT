@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "KAISON FUrnIShInG SDN BHD",
+    "confidence": 0.879
+  },
+  "date": {
+    "value": "25-03-18",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "PLASTIC TRAY-GLOSS R pCS",
+      "price": "8.90",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "KEYCHAIN - SCARF STA pCS",
+      "price": "5.90",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "KEYCHAIN - KNIT SCAR pCS",
+      "price": "3.90",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR   6",
+      "price": "18.70",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "18.70",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 37.4,
+      "subtotal": null,
+      "total": 18.7,
+      "status": "MISMATCH"
+    }
+  }
+}

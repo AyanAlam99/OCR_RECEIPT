@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR I00100000035- 1 Meat + 3 Vege",
+      "price": "7.10",
+      "confidence": 0.844
+    }
+  ],
+  "total_amount": {
+    "value": "7.10",
+    "confidence": 0.993,
+    "reconciliation": {
+      "item_sum": 7.1,
+      "subtotal": null,
+      "total": 7.1,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

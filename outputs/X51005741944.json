@@ -1,0 +1,22 @@
+{
+  "store_name": {
+    "value": "TAX INVOICE",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "18-01-2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "infiniti 97 E4Mp3",
+      "price": "16.32",
+      "confidence": 0.855
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

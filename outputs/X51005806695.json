@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "SAYANG YOU STATION SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "1PCS                       2",
+      "price": "4.10",
+      "confidence": 0.795
+    },
+    {
+      "name": "BALANCE :",
+      "price": "0.00",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "4.10",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 4.1,
+      "subtotal": null,
+      "total": 4.1,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

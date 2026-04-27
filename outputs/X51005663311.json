@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "LIM SENG THO HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "Change Due",
+      "price": "7.00",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "7.40",
+    "confidence": 0.618,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 7.0,
+      "subtotal": 7.0,
+      "total": 7.4,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

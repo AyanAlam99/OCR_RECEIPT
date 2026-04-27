@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "23/12/17",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "Shoe White SW1l0l2S",
+      "price": "4.29",
+      "confidence": 0.749
+    },
+    {
+      "name": "MR C.TAPE REF WH624R-",
+      "price": "31.99",
+      "confidence": 0.766
+    },
+    {
+      "name": "KIT KAT 2F (PM) 17G",
+      "price": "1.35",
+      "confidence": 0.756
+    },
+    {
+      "name": "FC GRIP BPO.5 BLK PK",
+      "price": "4.20",
+      "confidence": 0.756
+    },
+    {
+      "name": "FC GRIP BP0.5 BLU PK",
+      "price": "4.20",
+      "confidence": 0.763
+    },
+    {
+      "name": "3M GlueStick 7gm 4's",
+      "price": "10.59",
+      "confidence": 0.753
+    },
+    {
+      "name": "PU F/C B/L A4 450's",
+      "price": "16.99",
+      "confidence": 0.758
+    },
+    {
+      "name": "PLUS stapler set 010E",
+      "price": "8.89",
+      "confidence": 0.752
+    },
+    {
+      "name": "FC EXM.ERS 4S",
+      "price": "3.90",
+      "confidence": 0.759
+    },
+    {
+      "name": "S4 SUPER S M AKT SPM [BK]",
+      "price": "9.90",
+      "confidence": 0.761
+    },
+    {
+      "name": "SUCCESS SPM ADD MATHS[BK]",
+      "price": "37.00",
+      "confidence": 0.764
+    },
+    {
+      "name": "SUCCESS SPM SCI     [BK]",
+      "price": "35.70",
+      "confidence": 0.761
+    }
+  ],
+  "total_amount": {
+    "value": "140.65",
+    "confidence": 0.706,
+    "reconciliation": {
+      "item_sum": 169.0,
+      "subtotal": null,
+      "total": 140.65,
+      "status": "MISMATCH"
+    }
+  }
+}

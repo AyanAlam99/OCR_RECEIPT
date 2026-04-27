@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.82
+  },
+  "date": {
+    "value": "02/01/2018",
+    "confidence": 0.994
+  },
+  "items": [
+    {
+      "name": "Item                 Qty    S/Price  Amount Tax",
+      "price": "3.18",
+      "confidence": 0.87
+    },
+    {
+      "name": "SPONGE SCRUB W-PLASTIC HANDLE",
+      "price": "10.07",
+      "confidence": 0.862
+    }
+  ],
+  "total_amount": {
+    "value": "12.50",
+    "confidence": 0.904,
+    "reconciliation": {
+      "item_sum": 13.25,
+      "subtotal": null,
+      "total": 12.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "10/16/21",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "GRILL COVER",
+      "price": "14.97",
+      "confidence": 0.868
+    },
+    {
+      "name": "FIBER CH0ICE",
+      "price": "12.94",
+      "confidence": 0.863
+    },
+    {
+      "name": "CELERY HEART",
+      "price": "2.48",
+      "confidence": 0.839
+    }
+  ],
+  "total_amount": {
+    "value": "35.05",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 30.39,
+      "subtotal": 34.0,
+      "total": 35.05,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

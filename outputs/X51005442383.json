@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "CARREFOUR RESTAURANT",
+    "confidence": 0.823
+  },
+  "date": {
+    "value": "20/03/2016",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "DISC :",
+      "price": "0.00",
+      "confidence": 0.862
+    },
+    {
+      "name": "SERVICE CHARGE :",
+      "price": "0.00",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "0.00",
+    "confidence": 0.892,
+    "reconciliation": {
+      "item_sum": 0.0,
+      "subtotal": null,
+      "total": 0.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

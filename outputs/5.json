@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "MARKET",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "02/10/2021",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "KTTL SEA SALT POT CHP",
+      "price": "1.29",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BRAIDED BRIOCHE",
+      "price": "6.99",
+      "confidence": 0.636,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CHEF PLATE MEAL $10",
+      "price": "20.00",
+      "confidence": 0.641,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Net Sales:",
+      "price": "28.28",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "28.28",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 56.56,
+      "subtotal": 28.28,
+      "total": 28.28,
+      "status": "MISMATCH"
+    }
+  }
+}

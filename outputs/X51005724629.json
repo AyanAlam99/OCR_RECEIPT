@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "17/03/2018",
+    "confidence": 0.998
+  },
+  "items": [],
+  "total_amount": {
+    "value": "174.90",
+    "confidence": 0.908
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "TAX INVOICE",
+    "confidence": 0.683,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "10/10/2017",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "MAJESTA HSS",
+      "price": "8.00",
+      "confidence": 0.862
+    }
+  ],
+  "total_amount": {
+    "value": "8.00",
+    "confidence": 1.0,
+    "reconciliation": {
+      "item_sum": 8.0,
+      "subtotal": 8.0,
+      "total": 8.0,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

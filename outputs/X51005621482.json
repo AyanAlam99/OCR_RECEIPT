@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "PREMIO STATIONERY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/03/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR ENERGIZER         1",
+      "price": "13.40",
+      "confidence": 0.86
+    }
+  ],
+  "total_amount": {
+    "value": "13.40",
+    "confidence": 0.999,
+    "reconciliation": {
+      "item_sum": 13.4,
+      "subtotal": null,
+      "total": 13.4,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

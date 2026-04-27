@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "HAPPY SNACKS ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/03/2018",
+    "confidence": 0.986
+  },
+  "items": [
+    {
+      "name": "350PCS FRUIT PLUS - APPLE",
+      "price": "14.31",
+      "confidence": 0.866
+    },
+    {
+      "name": "300PCS LOT100 CANDY - ASSORTED",
+      "price": "12.51",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "26.82",
+    "confidence": 0.991,
+    "reconciliation": {
+      "item_sum": 26.82,
+      "subtotal": null,
+      "total": 26.82,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

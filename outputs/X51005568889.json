@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "11/02/2017",
+    "confidence": 0.892
+  },
+  "items": [
+    {
+      "name": "1.38 3/4\" ALUMINIUM ROD",
+      "price": "19.60",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "1.38 Type: 1     Tolal",
+      "price": "19.60",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "19.60",
+    "confidence": 0.6,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 39.2,
+      "subtotal": null,
+      "total": 19.6,
+      "status": "MISMATCH"
+    }
+  }
+}

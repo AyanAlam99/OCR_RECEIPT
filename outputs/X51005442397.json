@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "Triple Six Point Enterprise 666",
+    "confidence": 0.905
+  },
+  "date": {
+    "value": "25-03-2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "Disc:",
+      "price": "1.000",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "7.60",
+    "confidence": 0.593,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1.0,
+      "subtotal": null,
+      "total": 7.6,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "TED HENG STATIONERY & BOOKS",
+    "confidence": 0.811
+  },
+  "date": {
+    "value": "15/01/2018",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "CBE BADGE CLIP 100PCS",
+      "price": "24.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "NISO A4 LAMINATING FILM",
+      "price": "28.00",
+      "confidence": 0.854
+    }
+  ],
+  "total_amount": {
+    "value": "55.10",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 52.0,
+      "subtotal": null,
+      "total": 55.1,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

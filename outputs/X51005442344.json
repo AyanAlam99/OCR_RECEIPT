@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "YONG TAT HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "13/03/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "10\u00b0 WING COMPASS G1B1801",
+      "price": "50.88",
+      "confidence": 0.857
+    },
+    {
+      "name": "1/8\u00b0-3/4\" 12PCS HOLLOW PUNCH SET  68 190s",
+      "price": "50.00",
+      "confidence": 0.861
+    }
+  ],
+  "total_amount": {
+    "value": "95.17",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 100.88,
+      "subtotal": null,
+      "total": 95.17,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

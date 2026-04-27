@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "GUEST CHECK",
+    "confidence": 0.792
+  },
+  "date": {
+    "value": "29-10-2017",
+    "confidence": 0.999
+  },
+  "items": [],
+  "total_amount": {
+    "value": "21.30",
+    "confidence": 0.904
+  }
+}

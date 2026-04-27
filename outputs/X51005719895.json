@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "GreeN lane pharmAcy son Bhd",
+    "confidence": 0.875
+  },
+  "date": {
+    "value": "1/8/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "1 )Uamo06k amoXIcaP 50OMg CaPSU",
+      "price": "6.00",
+      "confidence": 0.522,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Uamo06k amoXIcaP 50OMg CaPSU",
+      "price": "6.00",
+      "confidence": 0.635,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "2)0984K NofluX tab 9oMg 10",
+      "price": "9.01",
+      "confidence": 0.581,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "3)9557892102639 IBUPR0FEN 400MG 10",
+      "price": "9.00",
+      "confidence": 0.584,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "3.00 X",
+      "price": "9.00",
+      "confidence": 0.587,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "4)9556492002837K FEBRICOL -RX 10",
+      "price": "10.80",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "4.00 X",
+      "price": "10.80",
+      "confidence": 0.568,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MASTER",
+      "price": "34.80",
+      "confidence": 0.59,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Z : 0%",
+      "price": "0.00",
+      "confidence": 0.573,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "34.80",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 95.41,
+      "subtotal": null,
+      "total": 34.8,
+      "status": "MISMATCH"
+    }
+  }
+}

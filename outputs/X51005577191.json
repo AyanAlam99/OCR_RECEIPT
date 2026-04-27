@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "FY EAGLE ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "07/12/2017",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "(RM)     (RM)",
+      "price": "10.00",
+      "confidence": 0.836
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "10.00",
+    "confidence": 0.877,
+    "reconciliation": {
+      "item_sum": 10.0,
+      "subtotal": null,
+      "total": 10.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "PETRODELI ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "26/02/18",
+    "confidence": 0.889
+  },
+  "items": [
+    {
+      "name": "Invoice number.",
+      "price": "39.42",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FuelSave 95     RM",
+      "price": "85.54",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "85.54",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 124.96,
+      "subtotal": null,
+      "total": 85.54,
+      "status": "MISMATCH"
+    }
+  }
+}

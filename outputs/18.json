@@ -1,0 +1,119 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "10/31/21",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "GV WATER",
+      "price": "0.98",
+      "confidence": 0.63,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GREAT VALUF",
+      "price": "2.84",
+      "confidence": 0.62,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GREAT VALUE",
+      "price": "2.84",
+      "confidence": 0.645,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GAIN LFE",
+      "price": "6.97",
+      "confidence": 0.653,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GAIN",
+      "price": "4.94",
+      "confidence": 0.657,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GV VEG OIL",
+      "price": "7.82",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SNICKER FS",
+      "price": "4.76",
+      "confidence": 0.6,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GDBR FS 6PK",
+      "price": "13.24",
+      "confidence": 0.6,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MIXED CHOC",
+      "price": "1.78",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GAIN",
+      "price": "1.97",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "HY RSTLEG PM",
+      "price": "9.97",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BATTERIES",
+      "price": "2.97",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GV 20Z MINI",
+      "price": "1.58",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CRNBRY SAUCE",
+      "price": "3.46",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SPREADS",
+      "price": "0.900",
+      "confidence": 0.644,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "EGGS 6CT",
+      "price": "82.75",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "86.35",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 149.77,
+      "subtotal": null,
+      "total": 86.35,
+      "status": "MISMATCH"
+    }
+  }
+}

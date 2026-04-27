@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "GOGIANT ENGINEERING (M) SDN BHD",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "12/02/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "SR: 11\" PROWESS H/DUTY SILICONE GUN G-D2",
+      "price": "15.00",
+      "confidence": 0.826
+    },
+    {
+      "name": "SR: X'TRASEAL. R IV ACETIC SILICONE SA-107",
+      "price": "21.00",
+      "confidence": 0.811
+    },
+    {
+      "name": "SR: CENTRAL PUNCH SET 3PCS - 1/4\",5/32\".1/4\"",
+      "price": "18.00",
+      "confidence": 0.854
+    },
+    {
+      "name": "SR. 24\" MARKSMAN PIPE WRENCH",
+      "price": "50.00",
+      "confidence": 0.821
+    },
+    {
+      "name": "SR: PVC WIRE TAPE 1PC X 7YD",
+      "price": "2.10",
+      "confidence": 0.856
+    }
+  ],
+  "total_amount": {
+    "value": "112.46",
+    "confidence": 0.988,
+    "reconciliation": {
+      "item_sum": 106.1,
+      "subtotal": 106.1,
+      "total": 112.46,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "store_name": {
+    "value": "BANDAR MENJALARA",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "2.00 X Bak Kut Teh Soup (",
+      "price": "17.00",
+      "confidence": 0.65,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Bak Kut Teh Soup (",
+      "price": "34.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "2.00 X White Rice (B)",
+      "price": "1.50",
+      "confidence": 0.629,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "White Rice (B)",
+      "price": "3.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR Tofu (B)",
+      "price": "4.00",
+      "confidence": 0.657,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "2.00 X Chinese Tea/ Water",
+      "price": "0.50",
+      "confidence": 0.644,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Chinese Tea/ Water Subtotal (GST Inol)",
+      "price": "1.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Redeem Point Discount",
+      "price": "42.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Deposit",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Change",
+      "price": "42.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GST Summary--",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "42.00",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 145.0,
+      "subtotal": null,
+      "total": 42.0,
+      "status": "MISMATCH"
+    }
+  }
+}

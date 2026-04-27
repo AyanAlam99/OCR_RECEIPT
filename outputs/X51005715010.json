@@ -1,0 +1,48 @@
+{
+  "store_name": {
+    "value": "Watson's Personal Care Stores Sdn Bhd",
+    "confidence": 0.903
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "WS CUT SCISSORS",
+      "price": "18.00",
+      "confidence": 0.567,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "QVS TEMPO TWEEZER",
+      "price": "17.90",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WS BABY WIPES FRAG",
+      "price": "7.90",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WATSONS BASKET",
+      "price": "0.00",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "82.88",
+    "confidence": 0.209,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 43.8,
+      "subtotal": 41.43,
+      "total": 82.88,
+      "status": "MISMATCH"
+    }
+  }
+}

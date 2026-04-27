@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "CASH",
+    "confidence": 0.805
+  },
+  "date": {
+    "value": "02/02/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "UNIT) ROYAL BAKING POWDER 450G TOTAL QUANTITY",
+      "price": "45.28",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CASH",
+      "price": "48.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CHANGE",
+      "price": "48.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GOOdS SOLD aRE nOT RETURnable, THANK YOU.",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "2.72",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 141.28,
+      "subtotal": null,
+      "total": 2.72,
+      "status": "MISMATCH"
+    }
+  }
+}

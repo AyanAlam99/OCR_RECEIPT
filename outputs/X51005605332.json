@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "14/03/18",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "CBE Rubber Band200gm",
+      "price": "7.95",
+      "confidence": 0.861
+    }
+  ],
+  "total_amount": {
+    "value": "7.95",
+    "confidence": 0.907,
+    "reconciliation": {
+      "item_sum": 7.95,
+      "subtotal": null,
+      "total": 7.95,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

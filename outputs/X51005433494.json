@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.784
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "SUN-THU: 1000 HRS - 2230 HRS",
+      "price": "75.005",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales Incl GST",
+      "price": "75.00",
+      "confidence": 0.483,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "75.00",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 150.0,
+      "subtotal": null,
+      "total": 75.0,
+      "status": "MISMATCH"
+    }
+  }
+}

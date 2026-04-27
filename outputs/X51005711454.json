@@ -1,0 +1,78 @@
+{
+  "store_name": {
+    "value": "BANDAR MAHKOTA CHERAS",
+    "confidence": 0.806
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "D28 MILO DINO(I) E",
+      "price": "7.45",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "RO3 N'LEMAK+fc E @17.83",
+      "price": "35.66",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "N22 SPRG NDL+SU+Cr E",
+      "price": "9.34",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "B02 HALF BL EGG E",
+      "price": "4.53",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "D19 CHAM (I) E",
+      "price": "5.57",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "10% SrvChg",
+      "price": "6.25",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "RND ADJ",
+      "price": "0.02",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TTL ATF RND",
+      "price": "72.95",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Payment",
+      "price": "73.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "72.93",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 214.77,
+      "subtotal": 62.55,
+      "total": 72.93,
+      "status": "MISMATCH"
+    }
+  }
+}

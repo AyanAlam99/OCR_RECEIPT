@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "SLF CASH & CARRY",
+    "confidence": 0.803
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "21.20",
+    "confidence": 0.847
+  }
+}

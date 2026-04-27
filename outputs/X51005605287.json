@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.688,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "14/03/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "MON-SUN: 1000 HRS - 2200 HRS",
+      "price": "6.65",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "VALUED CUSTOMER:",
+      "price": "6.65",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TOPVALU FLOOR C",
+      "price": "5.60",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "12.25",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 18.9,
+      "subtotal": null,
+      "total": 12.25,
+      "status": "MISMATCH"
+    }
+  }
+}

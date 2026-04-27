@@ -1,0 +1,65 @@
+{
+  "store_name": {
+    "value": "TED HENG STATIONERY & BOOKS",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "12/02/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "IK YELLOW 70GRAMS",
+      "price": "105.66",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PAPYRUS DARK COLOUR PAPER",
+      "price": "17.45",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ARTLINE 70",
+      "price": "2.70",
+      "confidence": 0.585,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FASTER CX5N BALL PEN",
+      "price": "0.85",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CBE HANDYCUTTER",
+      "price": "1.70",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CBE A4 SIZE 20 POCKETS REFILLABLE NEW CLEAR HOLDER",
+      "price": "8.40",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "EAGLE F4 120 NUMBERING FOOLSCAP BOOK",
+      "price": "7.92",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "53.35",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 144.68,
+      "subtotal": null,
+      "total": 53.35,
+      "status": "MISMATCH"
+    }
+  }
+}

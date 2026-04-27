@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "MR D.I.Y. (JOHOR) SDN BHD",
+    "confidence": 0.75
+  },
+  "date": {
+    "value": "12-01-19",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "AIR PRESSURE SPRAYER SX-575-1 1.5L",
+      "price": "19.00",
+      "confidence": 0.862
+    },
+    {
+      "name": "WAXCO WINDSHILED CLEANER 120ML",
+      "price": "8.02",
+      "confidence": 0.869
+    },
+    {
+      "name": "BOPP TAPE 48MM100M CLEAR",
+      "price": "3.02",
+      "confidence": 0.864
+    }
+  ],
+  "total_amount": {
+    "value": "33.92",
+    "confidence": 0.906,
+    "reconciliation": {
+      "item_sum": 30.04,
+      "subtotal": null,
+      "total": 33.92,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

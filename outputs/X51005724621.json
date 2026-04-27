@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.987
+  },
+  "items": [
+    {
+      "name": "SR PASIR KASAR (D)",
+      "price": "127.20",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "127.20",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "127.20",
+    "confidence": 0.505,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 254.4,
+      "subtotal": null,
+      "total": 127.2,
+      "status": "MISMATCH"
+    }
+  }
+}

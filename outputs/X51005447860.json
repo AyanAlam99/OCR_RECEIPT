@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "JLN JEJAKA, TAMAN MALURI",
+    "confidence": 0.8
+  },
+  "date": {
+    "value": "19/02/2018",
+    "confidence": 0.891
+  },
+  "items": [
+    {
+      "name": "SHOPPING HOURs",
+      "price": "5.90",
+      "confidence": 0.827
+    },
+    {
+      "name": "MON-SUN: 1000 HRS - 2200 HRS",
+      "price": "5.90",
+      "confidence": 0.844
+    },
+    {
+      "name": "SAKUMASHIKIDROP",
+      "price": "5.90",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "17.70",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 17.7,
+      "subtotal": null,
+      "total": 17.7,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

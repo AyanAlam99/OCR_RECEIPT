@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "Guardian Health And Beauty Sdn Bnd",
+    "confidence": 0.898
+  },
+  "date": {
+    "value": "09/03/18",
+    "confidence": 0.872
+  },
+  "items": [
+    {
+      "name": "60n uR flS",
+      "price": "9.95",
+      "confidence": 0.644,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SUSTOTAL",
+      "price": "9.95",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CASHI",
+      "price": "10.00",
+      "confidence": 0.653,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "9.95",
+    "confidence": 0.507,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 29.9,
+      "subtotal": null,
+      "total": 9.95,
+      "status": "MISMATCH"
+    }
+  }
+}

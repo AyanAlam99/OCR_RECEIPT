@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "PASARAYA BORGNG SUPER SEVEN",
+    "confidence": 0.802
+  },
+  "date": {
+    "value": "01-02-2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "RM)",
+      "price": "35.50",
+      "confidence": 0.802
+    },
+    {
+      "name": "FM420000000     2",
+      "price": "2.00",
+      "confidence": 0.788
+    },
+    {
+      "name": "FM420000000     3",
+      "price": "3.00",
+      "confidence": 0.794
+    }
+  ],
+  "total_amount": {
+    "value": "42.10",
+    "confidence": 0.988,
+    "reconciliation": {
+      "item_sum": 40.5,
+      "subtotal": null,
+      "total": 42.1,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

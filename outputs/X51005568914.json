@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "IKANO HANDEL_SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "09/08/17",
+    "confidence": 0.986
+  },
+  "items": [
+    {
+      "name": "TEOD0RES CH",
+      "price": "90.00",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Mastercard",
+      "price": "99.80",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "99.80",
+    "confidence": 0.506,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 189.8,
+      "subtotal": null,
+      "total": 99.8,
+      "status": "MISMATCH"
+    }
+  }
+}

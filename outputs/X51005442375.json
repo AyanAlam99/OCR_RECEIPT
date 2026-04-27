@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR 100100000060- 4 Vege",
+      "price": "5.50",
+      "confidence": 0.773
+    },
+    {
+      "name": "SR 100100000057-Fried No0dle (L)",
+      "price": "3.00",
+      "confidence": 0.847
+    }
+  ],
+  "total_amount": {
+    "value": "8.50",
+    "confidence": 0.993,
+    "reconciliation": {
+      "item_sum": 8.5,
+      "subtotal": null,
+      "total": 8.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

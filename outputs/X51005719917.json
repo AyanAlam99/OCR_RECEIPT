@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "TAX INVOICE",
+    "confidence": 0.823
+  },
+  "date": {
+    "value": "26/03/18",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "9\"HT  (BQ) 212P2C-R-2",
+      "price": "30.30",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "9\"NYC (CP) 21 2P2C-R-2",
+      "price": "30.30",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Items",
+      "price": "60.60",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "33.00",
+    "confidence": 0.599,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 121.2,
+      "subtotal": null,
+      "total": 33.0,
+      "status": "MISMATCH"
+    }
+  }
+}

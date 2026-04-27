@@ -1,0 +1,59 @@
+{
+  "store_name": {
+    "value": "DAMANSARA UTAMA",
+    "confidence": 0.812
+  },
+  "date": {
+    "value": "12/03/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "HH GUINESS 12 GLASSES",
+      "price": "150.00",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "HH TIGER 12 GLASSES",
+      "price": "145.00",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SERVICE CHARGE 10%",
+      "price": "29.50",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "NLI TOTAL",
+      "price": "343.95",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SVC . FRVIDL LIANUL TO",
+      "price": "295.00",
+      "confidence": 0.501,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR GS 6%",
+      "price": "324.50",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "619.50",
+    "confidence": 0.217,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1287.95,
+      "subtotal": 295.0,
+      "total": 619.5,
+      "status": "MISMATCH"
+    }
+  }
+}

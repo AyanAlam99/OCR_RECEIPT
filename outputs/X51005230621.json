@@ -1,0 +1,39 @@
+{
+  "store_name": {
+    "value": "Sin lianhap Son Bhd",
+    "confidence": 0.899
+  },
+  "date": {
+    "value": "05/02/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "6023 GARDEN",
+      "price": "1.887",
+      "confidence": 0.71
+    },
+    {
+      "name": "1.000 PC x",
+      "price": "2.00",
+      "confidence": 0.589,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "1.000 PC  x",
+      "price": "5.30",
+      "confidence": 0.6,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "7.30",
+    "confidence": 0.734,
+    "reconciliation": {
+      "item_sum": 9.19,
+      "subtotal": 7.3,
+      "total": 7.3,
+      "status": "MISMATCH"
+    }
+  }
+}

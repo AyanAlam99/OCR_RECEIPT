@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.812
+  },
+  "date": {
+    "value": "07/03/2018",
+    "confidence": 0.984
+  },
+  "items": [
+    {
+      "name": "Item            Qty  S/Price S/Price   Amount  Tax",
+      "price": "68.90",
+      "confidence": 0.861
+    },
+    {
+      "name": "PASIR HALUS (D)",
+      "price": "22.26",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "86.00",
+    "confidence": 0.906,
+    "reconciliation": {
+      "item_sum": 91.16,
+      "subtotal": null,
+      "total": 86.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR CEMENT (50KG)",
+      "price": "36.04",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "36.04",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "2.04",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 72.08,
+      "subtotal": null,
+      "total": 2.04,
+      "status": "MISMATCH"
+    }
+  }
+}

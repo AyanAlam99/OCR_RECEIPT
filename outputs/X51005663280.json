@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "T.A.S Leisure Sdn Bhd (256864-P)",
+    "confidence": 0.698,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "7d    PINEAPPLE JUICE",
+      "price": "12.95",
+      "confidence": 0.539,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TOSTADA CHIPS",
+      "price": "16.95",
+      "confidence": 0.625,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CHP_BWL CK",
+      "price": "29.95",
+      "confidence": 0.546,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "T    MARG CK",
+      "price": "27.95",
+      "confidence": 0.551,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "10% Srv Chg",
+      "price": "8.78",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "YOUR OPINION MATTERS We invite you to complete our",
+      "price": "102.40",
+      "confidence": 0.599,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "A WINNER EVERY MONTH Visit www.go-chilis.com",
+      "price": "1.000",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "102.39",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 199.98,
+      "subtotal": 87.8,
+      "total": 102.39,
+      "status": "MISMATCH"
+    }
+  }
+}

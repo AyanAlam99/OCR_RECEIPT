@@ -1,0 +1,71 @@
+{
+  "store_name": {
+    "value": "STAR GROCER SDN BHD (1171881-W)",
+    "confidence": 0.818
+  },
+  "date": {
+    "value": "25/03/18",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "JAMBU BATU (GUAVA SEEDLESS/ MUTIARA) KG",
+      "price": "1.59",
+      "confidence": 0.615,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PINEAPPLE LOCAL 1S",
+      "price": "2.59",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TIMUN JEPUN (JAPANESE CUCUMBER) KG",
+      "price": "17.20",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "US GREEN APPLE (175) 10S",
+      "price": "1.08",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "VALENCIA SA (105) 8S",
+      "price": "7.50",
+      "confidence": 0.627,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Tender",
+      "price": "0.02",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "S = 6%",
+      "price": "0.00",
+      "confidence": 0.59,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Z = 0%",
+      "price": "66.17",
+      "confidence": 0.572,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "66.17",
+    "confidence": 0.504,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 96.15,
+      "subtotal": null,
+      "total": 66.17,
+      "status": "MISMATCH"
+    }
+  }
+}

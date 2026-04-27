@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "BENS INDEPENDENT GROCER SDN, BHD",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "08/03/18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Farmhouse Fresh Milk Twin Pack 2x1L",
+      "price": "23.70",
+      "confidence": 0.856
+    },
+    {
+      "name": "Fresh Cut Hone,   kfruit Peeled 400g",
+      "price": "19.90",
+      "confidence": 0.865
+    },
+    {
+      "name": "Nestle Bliss Yog Drink Strawberry 700g",
+      "price": "26.70",
+      "confidence": 0.865
+    },
+    {
+      "name": "Vitagen Assorted 5x125ml",
+      "price": "5.80",
+      "confidence": 0.825
+    }
+  ],
+  "total_amount": {
+    "value": "81.00",
+    "confidence": 0.903,
+    "reconciliation": {
+      "item_sum": 76.1,
+      "subtotal": null,
+      "total": 81.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

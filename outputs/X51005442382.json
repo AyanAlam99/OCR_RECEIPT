@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR 100100000061-5Vege",
+      "price": "6.60",
+      "confidence": 0.783
+    }
+  ],
+  "total_amount": {
+    "value": "6.60",
+    "confidence": 0.991,
+    "reconciliation": {
+      "item_sum": 6.6,
+      "subtotal": null,
+      "total": 6.6,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

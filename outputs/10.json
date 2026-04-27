@@ -1,0 +1,125 @@
+{
+  "store_name": {
+    "value": "SPAR",
+    "confidence": 0.925
+  },
+  "date": {
+    "value": "23.02.21",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "LAZENBY WORCESTER SAUCE 125ML",
+      "price": "17.99",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "80GR",
+      "price": "16.99",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "500GR",
+      "price": "33.99",
+      "confidence": 0.652,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PEALED PEACHES",
+      "price": "82.99",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MEDITERRANEAN MIX      1KG",
+      "price": "44.99",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SPAR COOKING OIL       375ML",
+      "price": "14.99",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "F/L ENGLISH CUCUMB     1'S",
+      "price": "12.99",
+      "confidence": 0.636,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "NESTLE AERO            85GR",
+      "price": "20.99",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CADBURY DAIRY MI       80GR",
+      "price": "16.99",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GRAPES MIXED TUB       TUB",
+      "price": "24.99",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TASTIC RICE            500GR",
+      "price": "11.99",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BLACK CAT SMOOTH       270GR",
+      "price": "27.99",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CARRIER BAG 24L        I'S",
+      "price": "0.75",
+      "confidence": 0.658,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TENDERED Nedbank",
+      "price": "338.16",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "0.00% SLIP / TILL / CASHIER / DATE / TIME",
+      "price": "119.48",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SLIP / TILL / CASHIER / DATE / TIME",
+      "price": "218.68",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CASHIER NAME: SWAZI Please Retain Slip",
+      "price": "23.02",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "338.16",
+    "confidence": 0.506,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1027.97,
+      "subtotal": null,
+      "total": 338.16,
+      "status": "MISMATCH"
+    }
+  }
+}

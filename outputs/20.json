@@ -1,0 +1,59 @@
+{
+  "store_name": {
+    "value": "DOLLAR TREE",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "9/17/22",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "BAMBOO CHARCOAL TOOTHBRUSH     1",
+      "price": "1.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SP STICK ACTIVE DEO 1.8Z",
+      "price": "1.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SPEED STCK A/P ULT SPRT",
+      "price": "1.001",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BAMBOO CHARCOAL TOOTHBRUSH",
+      "price": "1.001",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BAMBOO CHARCOAL TOOTHBRUSH",
+      "price": "1.00",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BAMBOO CHARCOAL TOOTHBRUSH      1",
+      "price": "1.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "1.00",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 6.0,
+      "subtotal": 24.0,
+      "total": 1.0,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "Triple Six Point Enterprise 666",
+    "confidence": 0.907
+  },
+  "date": {
+    "value": "22-03-2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "Disc:",
+      "price": "0.300",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "nuts mixwd",
+      "price": "1.90",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "22.60",
+    "confidence": 0.6,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 2.2,
+      "subtotal": null,
+      "total": 22.6,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Super seven cash & carry Son Bhd",
+    "confidence": 0.887
+  },
+  "date": {
+    "value": "27-01-2018",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "RM)",
+      "price": "5.90",
+      "confidence": 0.865
+    },
+    {
+      "name": "QUANTITY : 10 Units",
+      "price": "59.00",
+      "confidence": 0.861
+    }
+  ],
+  "total_amount": {
+    "value": "59.00",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 64.9,
+      "subtotal": null,
+      "total": 59.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

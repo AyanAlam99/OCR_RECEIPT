@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "21-03-18",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "BOPP TAPE 48MM100M CLEAR",
+      "price": "1.90",
+      "confidence": 0.684,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "X CLOTH TAPE 46MM5M (GREEN)",
+      "price": "3.90",
+      "confidence": 0.671,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CLOTH TAPE 46MM5M (GREEN) S",
+      "price": "3.90",
+      "confidence": 0.684,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "X DBL SIDE CLEAR ACRYLIC TAPE VST106C",
+      "price": "1.90",
+      "confidence": 0.674,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DBL SIDE CLEAR ACRYLIC TAPE VST106C",
+      "price": "1.90",
+      "confidence": 0.684,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "21.50",
+    "confidence": 0.628,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 13.5,
+      "subtotal": null,
+      "total": 21.5,
+      "status": "MISMATCH"
+    }
+  }
+}

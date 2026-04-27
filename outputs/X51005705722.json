@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "ASO ELECTRICAL TRADING SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "27/09/2017",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR: HAGER TIMER, 24HRS POWER RESERVE",
+      "price": "248.04",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "248.015",
+    "confidence": 0.421,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 248.04,
+      "subtotal": 234.0,
+      "total": 248.015,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

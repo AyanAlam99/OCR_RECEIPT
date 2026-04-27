@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.819
+  },
+  "date": {
+    "value": "24/01/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "PASIR HALUS (BAG)",
+      "price": "38.16",
+      "confidence": 0.87
+    },
+    {
+      "name": "CEMENT (50KG)",
+      "price": "36.04",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "70.00",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 74.2,
+      "subtotal": null,
+      "total": 70.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

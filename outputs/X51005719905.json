@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SAINT HEART PASTRY",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "25/03/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "JUMBO SAUSAGE CHEESE    1",
+      "price": "3.10",
+      "confidence": 0.68,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GARLIC CHEESE                1",
+      "price": "2.00",
+      "confidence": 0.681,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.532,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 5.1,
+      "subtotal": null,
+      "total": 8.2,
+      "status": "MISMATCH"
+    }
+  }
+}

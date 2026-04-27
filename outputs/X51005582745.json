@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "MODern DePOt SDn BhD",
+    "confidence": 0.877
+  },
+  "date": {
+    "value": "04/12/2016",
+    "confidence": 0.993
+  },
+  "items": [
+    {
+      "name": "SR:STEL670 HEATGUN 200OW \"STANLEY\"",
+      "price": "141.51",
+      "confidence": 0.869
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.866
+    }
+  ],
+  "total_amount": {
+    "value": "150.00",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 141.51,
+      "subtotal": null,
+      "total": 150.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

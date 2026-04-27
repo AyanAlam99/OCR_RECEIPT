@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "08/11/17",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "GIET CARD   08/458604333",
+      "price": "50.000",
+      "confidence": 0.844
+    },
+    {
+      "name": "SUBTOIAL",
+      "price": "50.00",
+      "confidence": 0.835
+    },
+    {
+      "name": "TOIA",
+      "price": "50.00",
+      "confidence": 0.833
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

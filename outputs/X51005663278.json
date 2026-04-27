@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "IKANO HANDEL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "23/12/17",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "Almond Cak",
+      "price": "22.50",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "IKEA Retai",
+      "price": "36.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TKEA Drink",
+      "price": "1.00",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Thank you. Please come again.",
+      "price": "73.30",
+      "confidence": 0.664,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "73.30",
+    "confidence": 0.506,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 132.8,
+      "subtotal": null,
+      "total": 73.3,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "store_name": {
+    "value": "CR\u00c9PERIE",
+    "confidence": 0.811
+  },
+  "date": {
+    "value": "26/01/2015",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "Ham Cheese",
+      "price": "74.000",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Ice Java Tea",
+      "price": "16.000",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Mineral Water",
+      "price": "13.000",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Black & White",
+      "price": "72.000",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SUBTOTAL",
+      "price": "175.000",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TOTAL",
+      "price": "175.000",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CASH",
+      "price": "200.000",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "175.000",
+    "confidence": 0.1,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 725.0,
+      "subtotal": null,
+      "total": 175.0,
+      "status": "MISMATCH"
+    }
+  }
+}

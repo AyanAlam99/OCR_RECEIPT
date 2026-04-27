@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SDN. BHD.",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "06/02/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "1UNIT",
+      "price": "13.50",
+      "confidence": 0.868
+    }
+  ],
+  "total_amount": {
+    "value": "13.50",
+    "confidence": 1.0,
+    "reconciliation": {
+      "item_sum": 13.5,
+      "subtotal": null,
+      "total": 13.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

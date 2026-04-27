@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "LIGHTROOM GALLERY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/11/2017",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "YE36 BK 12W WW LED TRACK LIGHT",
+      "price": "90.57",
+      "confidence": 0.866
+    },
+    {
+      "name": "5.43)=RM",
+      "price": "90.57",
+      "confidence": 0.78
+    },
+    {
+      "name": "16.99 UNI",
+      "price": "16.79",
+      "confidence": 0.866
+    },
+    {
+      "name": "0                     UNIT",
+      "price": "263.02",
+      "confidence": 0.794
+    },
+    {
+      "name": "Service Charge   :",
+      "price": "15.78",
+      "confidence": 0.87
+    },
+    {
+      "name": "TOT                   RM",
+      "price": "278.80",
+      "confidence": 0.795
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

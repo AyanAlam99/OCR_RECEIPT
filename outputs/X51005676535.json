@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "30/12/2017",
+    "confidence": 0.993
+  },
+  "items": [
+    {
+      "name": "Item                  Qty     S/Price   Amount  Tax",
+      "price": "36.04",
+      "confidence": 0.87
+    },
+    {
+      "name": "CEMENT (50KG)",
+      "price": "53.00",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "84.00",
+    "confidence": 0.902,
+    "reconciliation": {
+      "item_sum": 89.04,
+      "subtotal": null,
+      "total": 84.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

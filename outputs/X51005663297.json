@@ -1,0 +1,102 @@
+{
+  "store_name": {
+    "value": "BEYOND BROTHERS HARDWARE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "14/03/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "159.00 BATU CEMENT (A) 60OPCS",
+      "price": "159.00",
+      "confidence": 0.865
+    },
+    {
+      "name": "BATU CEMENT (A) 60OPCS",
+      "price": "150.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "PASIR HALUS",
+      "price": "169.60",
+      "confidence": 0.869
+    },
+    {
+      "name": "PASIR HALUS",
+      "price": "80.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "YTL CEMENT 5OKG (NEW PRICE)",
+      "price": "101.76",
+      "confidence": 0.868
+    },
+    {
+      "name": "YTL CEMENT 5OKG (NEW PRICE)",
+      "price": "16.96",
+      "confidence": 0.862
+    },
+    {
+      "name": "KAPUR A1",
+      "price": "3.18",
+      "confidence": 0.868
+    },
+    {
+      "name": "SALUNG TANGAN GETAH (1PAIR)",
+      "price": "6.36",
+      "confidence": 0.869
+    },
+    {
+      "name": "BENANG NYLON 1B",
+      "price": "2.12",
+      "confidence": 0.851
+    },
+    {
+      "name": "GERMANY SUDU PLASTER",
+      "price": "16.96",
+      "confidence": 0.869
+    },
+    {
+      "name": "SUDU PLASTER KAYU (NORMAL)",
+      "price": "7.31",
+      "confidence": 0.868
+    },
+    {
+      "name": "PAPAN SIMEN (HITAM)",
+      "price": "4.77",
+      "confidence": 0.855
+    },
+    {
+      "name": "M'MAN RULE TIMBANG 18",
+      "price": "21.09",
+      "confidence": 0.869
+    },
+    {
+      "name": "KERETA TOLAK H/D (OREN)",
+      "price": "106.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "SR PAKU KAYU 1\" (KECIL)",
+      "price": "1.27",
+      "confidence": 0.867
+    },
+    {
+      "name": "Total Qty  20",
+      "price": "0.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "Total Sales (Excluding GST)",
+      "price": "599.43",
+      "confidence": 0.845
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.814
+  },
+  "date": {
+    "value": "31/03/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "SR SIMEN",
+      "price": "174.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "174.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "165.00",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 349.8,
+      "subtotal": null,
+      "total": 165.0,
+      "status": "MISMATCH"
+    }
+  }
+}

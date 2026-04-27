@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "TAMAN SRI BINTANG,",
+    "confidence": 0.784
+  },
+  "date": {
+    "value": "11/03/18",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "KAYA PUFF 4",
+      "price": "1.60",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Cheese Le 1",
+      "price": "2.45",
+      "confidence": 0.652,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Cheese Ta 1",
+      "price": "3.40",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "D/R BUTTE 1",
+      "price": "4.20",
+      "confidence": 0.645,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Aed",
+      "price": "25.15",
+      "confidence": 0.549,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "1.42",
+    "confidence": 0.583,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 36.8,
+      "subtotal": null,
+      "total": 1.42,
+      "status": "MISMATCH"
+    }
+  }
+}

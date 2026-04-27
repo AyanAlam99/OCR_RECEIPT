@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "RECEIPT",
+    "confidence": 0.705
+  },
+  "date": {
+    "value": "19/10/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "GF-TABLE LAMP/STITCH <i>",
+      "price": "10.00",
+      "confidence": 0.867
+    },
+    {
+      "name": "Total Qty   2",
+      "price": "55.90",
+      "confidence": 0.869
+    },
+    {
+      "name": "ODISC",
+      "price": "5.59",
+      "confidence": 0.839
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

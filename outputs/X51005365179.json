@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "C W KHOO HARDWARE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "01-03-18",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "Item(s)        Total (MYR) :",
+      "price": "20.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "Net Total (MYR) :",
+      "price": "20.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

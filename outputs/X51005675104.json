@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "25/01/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "SR 12MM 4/8B PLYWOOD",
+      "price": "190.80",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "190.80",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.80",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 381.6,
+      "subtotal": null,
+      "total": 10.8,
+      "status": "MISMATCH"
+    }
+  }
+}

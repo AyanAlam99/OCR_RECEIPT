@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "28/12/2017",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "PASIR HALUS 1 LOAD (SMALL)",
+      "price": "148.40",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "8.40",
+    "confidence": 0.506,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 148.4,
+      "subtotal": null,
+      "total": 8.4,
+      "status": "MISMATCH"
+    }
+  }
+}

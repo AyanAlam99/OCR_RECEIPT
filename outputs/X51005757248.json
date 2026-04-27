@@ -1,0 +1,54 @@
+{
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.695,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "12/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "PLASTICS BAG",
+      "price": "0.20",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WO W/O H&F",
+      "price": "13.947",
+      "confidence": 0.658,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WC W/O H&F",
+      "price": "14.817",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WC W/O H&F Sub-total",
+      "price": "13.537",
+      "confidence": 0.661,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales Incl GST",
+      "price": "42.48",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.01",
+    "confidence": 0.3,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 84.98,
+      "subtotal": null,
+      "total": 0.01,
+      "status": "MISMATCH"
+    }
+  }
+}

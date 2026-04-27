@@ -1,0 +1,54 @@
+{
+  "store_name": {
+    "value": "EVErgrEEN LighT Son Bhd",
+    "confidence": 0.875
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "PROBMK 1OW LED 8TCK",
+      "price": "52.845",
+      "confidence": 0.64,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total IncI GST",
+      "price": "56.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Pay Cash",
+      "price": "56.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Change G8T      Toxoble Amt GEt Amt",
+      "price": "0.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "THANK YOU GOODB BOLD ARE NOT REFUNDABLE FOR CABK.",
+      "price": "3.17",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "52.84",
+    "confidence": 0.495,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 168.01,
+      "subtotal": null,
+      "total": 52.84,
+      "status": "MISMATCH"
+    }
+  }
+}

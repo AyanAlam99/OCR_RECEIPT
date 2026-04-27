@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "12/02/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR 110MM X 5.8M UNDERGROUND PIPE",
+      "price": "270.30",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST)",
+      "price": "270.30",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "15.30",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 540.6,
+      "subtotal": null,
+      "total": 15.3,
+      "status": "MISMATCH"
+    }
+  }
+}

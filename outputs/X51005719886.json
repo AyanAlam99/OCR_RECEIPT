@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SUNFISH",
+    "confidence": 0.835
+  },
+  "date": {
+    "value": "05/01/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "SALTED F.RICE",
+      "price": "8.50",
+      "confidence": 0.868
+    },
+    {
+      "name": "EFRIED EGG",
+      "price": "1.80",
+      "confidence": 0.854
+    },
+    {
+      "name": "NASI lemaK DrUmsiIck",
+      "price": "9.80",
+      "confidence": 0.784
+    },
+    {
+      "name": "SOYA CINCAU",
+      "price": "4.30",
+      "confidence": 0.857
+    },
+    {
+      "name": "LARGE / ICE TEA",
+      "price": "4.30",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

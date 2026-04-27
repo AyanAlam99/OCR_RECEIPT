@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "STATIONERY SDN. BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "26-02-2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "CLR P.S A4/A3",
+      "price": "7.42",
+      "confidence": 0.854
+    }
+  ],
+  "total_amount": {
+    "value": "7.42",
+    "confidence": 0.907,
+    "reconciliation": {
+      "item_sum": 7.42,
+      "subtotal": null,
+      "total": 7.42,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

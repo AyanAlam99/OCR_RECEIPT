@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "31/01/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "Item                 Qty    S/Price  Amount Tax",
+      "price": "59.36",
+      "confidence": 0.674,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "(W33)105MM/4'CUTTING DISC",
+      "price": "31.80",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "W33)105MM/4'CUTTING DISC",
+      "price": "31.80",
+      "confidence": 0.649,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "4\" MAGIC SAND PAPER",
+      "price": "10.60",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "96.00",
+    "confidence": 0.517,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 133.56,
+      "subtotal": null,
+      "total": 96.0,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "21/03/2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "Item             Qty  S/Price  S/Price   Amount  Tax",
+      "price": "68.90",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "65.00",
+    "confidence": 0.907,
+    "reconciliation": {
+      "item_sum": 68.9,
+      "subtotal": null,
+      "total": 65.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

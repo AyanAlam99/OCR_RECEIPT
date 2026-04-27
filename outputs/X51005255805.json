@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "Sam Sam TRadinG CO",
+    "confidence": 0.893
+  },
+  "date": {
+    "value": "29-12-2017",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "SS EZL A4 CYBER MIX COLOR PAPER 1OO'S8",
+      "price": "5.20",
+      "confidence": 0.621,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "X TAX AMT (S)",
+      "price": "8.90",
+      "confidence": 0.63,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "6%                        RM",
+      "price": "13.30",
+      "confidence": 0.59,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "14.10",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 27.4,
+      "subtotal": null,
+      "total": 14.1,
+      "status": "MISMATCH"
+    }
+  }
+}

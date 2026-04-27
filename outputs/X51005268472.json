@@ -1,0 +1,63 @@
+{
+  "store_name": {
+    "value": "ASIA MART",
+    "confidence": 0.904
+  },
+  "date": {
+    "value": "22/12/2017",
+    "confidence": 0.989
+  },
+  "items": [
+    {
+      "name": "0.85 DELICIA CHOCOLATE [50G]",
+      "price": "0.90",
+      "confidence": 0.74
+    },
+    {
+      "name": "DELICIA CHOCOLATE [50G]",
+      "price": "0027.17",
+      "confidence": 0.74
+    },
+    {
+      "name": "3.55 GARDENIA ORIGINAL CLASSIC JUMBO [600G]",
+      "price": "3.55",
+      "confidence": 0.74
+    },
+    {
+      "name": "HU   VS LIME 50G",
+      "price": "1.50",
+      "confidence": 0.741
+    },
+    {
+      "name": "DOREMON CATCAT JOY 15G",
+      "price": "1.51",
+      "confidence": 0.741
+    },
+    {
+      "name": "2.30 MINUTE MAID PULPY [OREN] [350ML]",
+      "price": "2.44",
+      "confidence": 0.741
+    },
+    {
+      "name": "MINUTE MAID      [RENI [350ML]",
+      "price": "2.44",
+      "confidence": 0.741
+    },
+    {
+      "name": "1 MON DRINK SUOML",
+      "price": "1.60",
+      "confidence": 0.707
+    }
+  ],
+  "total_amount": {
+    "value": "32.69",
+    "confidence": 0.644,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 41.11,
+      "subtotal": null,
+      "total": 32.69,
+      "status": "MISMATCH"
+    }
+  }
+}

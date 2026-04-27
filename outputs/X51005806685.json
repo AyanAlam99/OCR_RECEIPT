@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.825
+  },
+  "date": {
+    "value": "17/01/2018",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "CB: 389772           17/01/2018 Cashier: c1000-",
+      "price": "8.08",
+      "confidence": 0.587,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "29.00",
+    "confidence": 0.599,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 8.08,
+      "subtotal": null,
+      "total": 29.0,
+      "status": "MISMATCH"
+    }
+  }
+}

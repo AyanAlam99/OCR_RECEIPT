@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "KNIFE COOKING OIL 5KG",
+    "confidence": 0.679,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Counter      : 09",
+      "price": "25.80",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "IQF SQUID TUBE 1KG+-",
+      "price": "10.90",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "l x",
+      "price": "10.90",
+      "confidence": 0.619,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "No of items: 12",
+      "price": "10.90",
+      "confidence": 0.633,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Master xxxxxxxxxxxx0o00:",
+      "price": "145.10",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "z e0.0%",
+      "price": "0.00",
+      "confidence": 0.568,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "s @6.0%",
+      "price": "1.20",
+      "confidence": 0.579,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "145.10",
+    "confidence": 0.598,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 204.8,
+      "subtotal": 145.09,
+      "total": 145.1,
+      "status": "MISMATCH"
+    }
+  }
+}

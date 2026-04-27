@@ -1,0 +1,75 @@
+{
+  "store_name": {
+    "value": "WAHIN HARDWARE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "04/12/17",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "24\"X18\" ROLLERPAINT HANDLE",
+      "price": "5.30",
+      "confidence": 0.861
+    },
+    {
+      "name": "33.5LRT BLACK OXIDE PAINT",
+      "price": "6.36",
+      "confidence": 0.842
+    },
+    {
+      "name": "Gross Amount",
+      "price": "30.74",
+      "confidence": 0.869
+    },
+    {
+      "name": "Total GST Amt",
+      "price": "40.00",
+      "confidence": 0.696,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Sub Total",
+      "price": "2.40",
+      "confidence": 0.707
+    },
+    {
+      "name": "Rounding Adj.",
+      "price": "42.40",
+      "confidence": 0.87
+    },
+    {
+      "name": "Total (RM)",
+      "price": "0.00",
+      "confidence": 0.652,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Amount Change",
+      "price": "42.40",
+      "confidence": 0.73
+    },
+    {
+      "name": "Quantity Count:",
+      "price": "0.00",
+      "confidence": 0.68,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR@6%",
+      "price": "40.00",
+      "confidence": 0.742
+    },
+    {
+      "name": "THANK YOU!",
+      "price": "2.40",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

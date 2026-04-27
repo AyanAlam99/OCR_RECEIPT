@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "Super Terminal Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/01/2018",
+    "confidence": 0.99
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

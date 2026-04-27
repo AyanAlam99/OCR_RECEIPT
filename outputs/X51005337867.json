@@ -1,0 +1,43 @@
+{
+  "store_name": {
+    "value": "OLDTOWN WHITECOFFEE",
+    "confidence": 0.827
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "ST30",
+      "price": "13.87",
+      "confidence": 0.847
+    },
+    {
+      "name": "HS4",
+      "price": "12.07",
+      "confidence": 0.868
+    },
+    {
+      "name": "10% Srv Chg:",
+      "price": "2.59",
+      "confidence": 0.869
+    },
+    {
+      "name": "INCLUSIVE",
+      "price": "0.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "30.24",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 28.53,
+      "subtotal": 25.94,
+      "total": 30.24,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

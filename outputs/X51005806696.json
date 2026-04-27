@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "IMAGE PRINTEC (M) SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "23/02/2018",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "COLOR COPY A4",
+      "price": "2.00",
+      "confidence": 0.863
+    },
+    {
+      "name": "PHOTOCOPY A4",
+      "price": "0.20",
+      "confidence": 0.869
+    },
+    {
+      "name": "LAMINATE A4",
+      "price": "5.00",
+      "confidence": 0.862
+    }
+  ],
+  "total_amount": {
+    "value": "7.65",
+    "confidence": 1.0,
+    "reconciliation": {
+      "item_sum": 7.2,
+      "subtotal": 7.2,
+      "total": 7.65,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

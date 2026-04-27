@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "PANA JAYA ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "25-01-2018",
+    "confidence": 0.995
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

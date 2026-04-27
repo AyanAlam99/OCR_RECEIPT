@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "SINNATHAMBY HOLDINGS SDN. BHD. (2 19336-T)",
+    "confidence": 0.819
+  },
+  "date": {
+    "value": "06/02/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "UNIT",
+      "price": "14.40",
+      "confidence": 0.863
+    },
+    {
+      "name": "PLASTIC BOWL -",
+      "price": "2.80",
+      "confidence": 0.847
+    },
+    {
+      "name": "JNIT",
+      "price": "22.40",
+      "confidence": 0.82
+    },
+    {
+      "name": "UNIT",
+      "price": "9.00",
+      "confidence": 0.841
+    },
+    {
+      "name": "UNIT",
+      "price": "10.00",
+      "confidence": 0.857
+    },
+    {
+      "name": "UNIT",
+      "price": "53.90",
+      "confidence": 0.854
+    }
+  ],
+  "total_amount": {
+    "value": "109.70",
+    "confidence": 0.999,
+    "reconciliation": {
+      "item_sum": 112.5,
+      "subtotal": null,
+      "total": 109.7,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

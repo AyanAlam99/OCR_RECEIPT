@@ -1,0 +1,101 @@
+{
+  "store_name": {
+    "value": "Dollar Tree Stores, Inc.",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "2/20/14",
+    "confidence": 0.892
+  },
+  "items": [
+    {
+      "name": "CLIF BAR P8       1",
+      "price": "1.00",
+      "confidence": 0.642,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CLIF BAR P8",
+      "price": "1.00",
+      "confidence": 0.636,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SLICED PEPPERONI32",
+      "price": "1.00",
+      "confidence": 0.65,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SLICED PEPPERONI32   A",
+      "price": "1.00",
+      "confidence": 0.566,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ASSURED CAPLETS     H",
+      "price": "1.00",
+      "confidence": 0.546,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SUPER GLUE GEL     1",
+      "price": "1.00",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CONDITIONER       1",
+      "price": "1.00",
+      "confidence": 0.609,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GINSENG TAB 500MG   H",
+      "price": "1.00",
+      "confidence": 0.541,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GINSENG TAB 500MG",
+      "price": "1.00",
+      "confidence": 0.639,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SCRUB SPONGE       1",
+      "price": "1.00",
+      "confidence": 0.632,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GENERAL EXEM",
+      "price": "0.00",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Where Everything s",
+      "price": "1.00",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Now Shop On-Line at Dol lartree com",
+      "price": "19.52",
+      "confidence": 0.652,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.21",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 30.52,
+      "subtotal": 10.0,
+      "total": 10.21,
+      "status": "MISMATCH"
+    }
+  }
+}

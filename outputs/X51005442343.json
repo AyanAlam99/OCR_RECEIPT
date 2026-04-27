@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "YONG TAT HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "13/03/2018",
+    "confidence": 0.991
+  },
+  "items": [
+    {
+      "name": "0.8MM X 50 X 60\" AR RED GASKET GA1PO)",
+      "price": "72.00",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "67.92",
+    "confidence": 0.905,
+    "reconciliation": {
+      "item_sum": 72.0,
+      "subtotal": null,
+      "total": 67.92,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

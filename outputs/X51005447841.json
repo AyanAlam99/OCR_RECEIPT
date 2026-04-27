@@ -1,0 +1,59 @@
+{
+  "store_name": {
+    "value": "SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "09/03/2018",
+    "confidence": 0.887
+  },
+  "items": [
+    {
+      "name": "WALK",
+      "price": "1.20",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WALK",
+      "price": "1.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "fishermans.f s/free lemon 25g",
+      "price": "2.70",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WALK",
+      "price": "4.60",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Cash",
+      "price": "10.50",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Change Amount (RM)  Tax (RM)",
+      "price": "0.10",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.40",
+    "confidence": 0.595,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 21.0,
+      "subtotal": null,
+      "total": 10.4,
+      "status": "MISMATCH"
+    }
+  }
+}

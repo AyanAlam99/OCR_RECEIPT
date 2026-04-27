@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "THE STORE (MALAYSIA) SDN BHD (8199K)",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "14-01-2018",
+    "confidence": 0.889
+  },
+  "items": [
+    {
+      "name": "UNI A6 NOTE BOOK",
+      "price": "1.20",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "35.80",
+    "confidence": 0.6,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1.2,
+      "subtotal": null,
+      "total": 35.8,
+      "status": "MISMATCH"
+    }
+  }
+}

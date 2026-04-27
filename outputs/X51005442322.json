@@ -1,0 +1,54 @@
+{
+  "store_name": {
+    "value": "GRAND COMPANIONS SDN BHD (285560-H)",
+    "confidence": 0.812
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "NY STRIP",
+      "price": "67.67",
+      "confidence": 0.657,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ICE LATTE",
+      "price": "9.35",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "7UP",
+      "price": "9.35",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PEPSI",
+      "price": "9.35",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "10% Srv Chg",
+      "price": "23.10",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "269.40",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 118.82,
+      "subtotal": 231.06,
+      "total": 269.4,
+      "status": "MISMATCH"
+    }
+  }
+}

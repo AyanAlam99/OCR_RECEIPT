@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.82
+  },
+  "date": {
+    "value": "03/01/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "COTTON GLOVE (DOZEN)",
+      "price": "10.60",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FACE MASK",
+      "price": "23.32",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR CS 200A CUTTING WHEEL",
+      "price": "38.16",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "72.08",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "4.08",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 144.16,
+      "subtotal": null,
+      "total": 4.08,
+      "status": "MISMATCH"
+    }
+  }
+}

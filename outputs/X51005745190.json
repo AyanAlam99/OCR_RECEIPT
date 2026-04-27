@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARRY SON BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "12-02-2018",
+    "confidence": 0.891
+  },
+  "items": [
+    {
+      "name": "RM)",
+      "price": "63.00",
+      "confidence": 0.847
+    },
+    {
+      "name": "FM411000055     4",
+      "price": "252.00",
+      "confidence": 0.778
+    },
+    {
+      "name": "EAWANG BESAR INDIA/CINA GUNI",
+      "price": "18.50",
+      "confidence": 0.812
+    },
+    {
+      "name": "FM429000000     2",
+      "price": "17.00",
+      "confidence": 0.782
+    },
+    {
+      "name": "CILI BOH 3KG KCK",
+      "price": "07.90",
+      "confidence": 0.838
+    },
+    {
+      "name": "RoundingAdjustment                 RMO.00",
+      "price": "367.10",
+      "confidence": 0.815
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

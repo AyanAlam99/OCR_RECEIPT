@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "BENS INDEPENDENT GROCER SDN. BHD",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "09/03/18",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "Fresh Cut Honey Jackfruit Peeled 400g",
+      "price": "1.25",
+      "confidence": 0.866
+    },
+    {
+      "name": "Fresh Cut Honey Jackfruit Peeled 400g",
+      "price": "107.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "Tender",
+      "price": "0.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "S = 6% BIG.COM.MY",
+      "price": "6.06",
+      "confidence": 0.863
+    },
+    {
+      "name": "BIG.COM.MY FACEBOOK.COM/THEBIGGROUP",
+      "price": "0.00",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "133.70",
+    "confidence": 0.905,
+    "reconciliation": {
+      "item_sum": 114.31,
+      "subtotal": null,
+      "total": 133.7,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

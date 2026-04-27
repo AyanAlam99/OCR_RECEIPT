@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "1LT BIG TREE HIGH GLOSS PAINT",
+      "price": "53.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "7\" ROLLER REFILL",
+      "price": "6.89",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "100.17",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 59.89,
+      "subtotal": null,
+      "total": 100.17,
+      "status": "MISMATCH"
+    }
+  }
+}

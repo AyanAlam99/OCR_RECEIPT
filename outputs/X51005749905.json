@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "ENW Hardware Centre (M) Sdn. Bhd.",
+    "confidence": 0.899
+  },
+  "date": {
+    "value": "10/03/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "1.00 2kgs. Wood Lacquer Thinner",
+      "price": "19.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "2kgs. Wood Lacquer Thinner",
+      "price": "19.00",
+      "confidence": 0.866
+    },
+    {
+      "name": "1.5kg. Ufixx Putty Filler.",
+      "price": "1.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "1.5kg. Ufixx Putty Filler.",
+      "price": "10.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "x 8\" x 45m Sand Paper Roll.",
+      "price": "2.50",
+      "confidence": 0.869
+    },
+    {
+      "name": "x 8\" x 45m Sand Paper Roll. Total Amt Incl. GST @ 6 % :",
+      "price": "5.00",
+      "confidence": 0.832
+    },
+    {
+      "name": "Rounding Adjusment:",
+      "price": "34.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "Total Amt Payable :",
+      "price": "0.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "Total Qty Tender :",
+      "price": "34.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "TED HENG STATIDNERY & BOOKS",
+    "confidence": 0.809
+  },
+  "date": {
+    "value": "15/03/2018",
+    "confidence": 0.984
+  },
+  "items": [
+    {
+      "name": "ARTLINE 70",
+      "price": "7.41",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ARTLINE 70 Total Qty. :     48",
+      "price": "120.00",
+      "confidence": 0.65,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SUB-TOTAL (EX)",
+      "price": "120.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TOTAL TAX",
+      "price": "120.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "127.20",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 367.41,
+      "subtotal": null,
+      "total": 127.2,
+      "status": "MISMATCH"
+    }
+  }
+}

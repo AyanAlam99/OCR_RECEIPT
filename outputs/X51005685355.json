@@ -1,0 +1,59 @@
+{
+  "store_name": {
+    "value": "RESTORAN IBRAHIM MAJU SB",
+    "confidence": 0.816
+  },
+  "date": {
+    "value": "19/03/2018",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "MAKANAN",
+      "price": "2.30",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MAKANAN",
+      "price": "1.40",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MAKANAN",
+      "price": "1.60",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Round Adjustmt               RM",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "otal                        RM",
+      "price": "5.30",
+      "confidence": 0.593,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GST ANALYSIS",
+      "price": "0.30",
+      "confidence": 0.641,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "5.30",
+    "confidence": 0.518,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 10.9,
+      "subtotal": 5.3,
+      "total": 5.3,
+      "status": "MISMATCH"
+    }
+  }
+}

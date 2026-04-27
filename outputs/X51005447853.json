@@ -1,0 +1,48 @@
+{
+  "store_name": {
+    "value": "TAMAN BERKELEY",
+    "confidence": 0.816
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "2506 Yoncchun Lokam Mnorn S",
+      "price": "62.50",
+      "confidence": 0.782
+    },
+    {
+      "name": "Yoncchun Lokam Mnorn S",
+      "price": "62.50",
+      "confidence": 0.863
+    },
+    {
+      "name": "5 X RM",
+      "price": "12.50",
+      "confidence": 0.861
+    },
+    {
+      "name": "2508 Yongchun lokaM MnDrn H",
+      "price": "79.00",
+      "confidence": 0.736
+    },
+    {
+      "name": "Yongchun lokaM MnDrn H",
+      "price": "79.00",
+      "confidence": 0.841
+    },
+    {
+      "name": "5 X RM",
+      "price": "15.80",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

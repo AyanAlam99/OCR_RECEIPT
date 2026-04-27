@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "JOHOR",
+    "confidence": 0.815
+  },
+  "date": {
+    "value": "09/03/2018",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "DPT.05  RM",
+      "price": "149.00",
+      "confidence": 0.827
+    },
+    {
+      "name": "DP1.04  RN",
+      "price": "21.00",
+      "confidence": 0.842
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

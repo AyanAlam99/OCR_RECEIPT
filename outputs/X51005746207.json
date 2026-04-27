@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARRY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "21-03-2018",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "RM)",
+      "price": "2.99",
+      "confidence": 0.649,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FM415000303     1",
+      "price": "2.00",
+      "confidence": 0.585,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "QUANTITY : 6 Units",
+      "price": "2.90",
+      "confidence": 0.655,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "18.30",
+    "confidence": 0.582,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 7.89,
+      "subtotal": null,
+      "total": 18.3,
+      "status": "MISMATCH"
+    }
+  }
+}

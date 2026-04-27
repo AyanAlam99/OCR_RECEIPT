@@ -1,0 +1,43 @@
+{
+  "store_name": {
+    "value": "TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "12/09/2017",
+    "confidence": 0.865
+  },
+  "items": [
+    {
+      "name": "Description         Qty   Price Amount",
+      "price": "6.00",
+      "confidence": 0.713
+    },
+    {
+      "name": "DRAWER         1",
+      "price": "6.00",
+      "confidence": 0.706
+    },
+    {
+      "name": "FAXON GARDEN       1",
+      "price": "18.00",
+      "confidence": 0.699,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "OCAL SEAL WHITE   1",
+      "price": "0.50",
+      "confidence": 0.737
+    }
+  ],
+  "total_amount": {
+    "value": "24.50",
+    "confidence": 0.755,
+    "reconciliation": {
+      "item_sum": 30.5,
+      "subtotal": 0.5,
+      "total": 24.5,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 0.9
+  },
+  "date": {
+    "value": "01/16/17",
+    "confidence": 0.884
+  },
+  "items": [
+    {
+      "name": "BEVERAGE",
+      "price": "2.00",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "OS CRAN POM",
+      "price": "2.00",
+      "confidence": 0.688,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "STRWBRY CC",
+      "price": "0.96",
+      "confidence": 0.692,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "HARD SALAMI",
+      "price": "3.43",
+      "confidence": 0.683,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "AT 1 FOR",
+      "price": "1.76",
+      "confidence": 0.69,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PILLS WHITE",
+      "price": "1.00",
+      "confidence": 0.679,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SH NYLON COL",
+      "price": "2.97",
+      "confidence": 0.674,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "HAND CLEANER",
+      "price": "1.67",
+      "confidence": 0.671,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "INJECTR CLNR",
+      "price": "8.87",
+      "confidence": 0.673,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TX 6",
+      "price": "1.14",
+      "confidence": 0.614,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "2.900 %",
+      "price": "0.12",
+      "confidence": 0.622,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "38.68",
+    "confidence": 0.579,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 25.92,
+      "subtotal": 36.35,
+      "total": 38.68,
+      "status": "MISMATCH"
+    }
+  }
+}

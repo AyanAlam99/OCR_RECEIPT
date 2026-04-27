@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "Mr.Dakgalbi Solaris",
+    "confidence": 0.718
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Fried Rice 3 Pax             1",
+      "price": "71.00",
+      "confidence": 0.868
+    }
+  ],
+  "total_amount": {
+    "value": "71.00",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 71.0,
+      "subtotal": null,
+      "total": 71.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

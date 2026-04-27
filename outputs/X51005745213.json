@@ -1,0 +1,58 @@
+{
+  "store_name": {
+    "value": "HARDWARE SUPPLY",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "ZAWHITESPRAY",
+      "price": "7.00",
+      "confidence": 0.862
+    },
+    {
+      "name": "TotalAmiInd GST@6%:",
+      "price": "87.00",
+      "confidence": 0.789
+    },
+    {
+      "name": "TotalAmiInd GST@6%:",
+      "price": "7.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "Rounding Adjustment:",
+      "price": "0.01",
+      "confidence": 0.854
+    },
+    {
+      "name": "Total Arm Povoble :",
+      "price": "7.00",
+      "confidence": 0.861
+    },
+    {
+      "name": "Change : Total Qy Tender:              1",
+      "price": "0.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "5.60 2 C Total B0",
+      "price": "0.40",
+      "confidence": 0.778
+    },
+    {
+      "name": "C Total B0 2a",
+      "price": "0.40",
+      "confidence": 0.626,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

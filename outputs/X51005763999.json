@@ -1,0 +1,64 @@
+{
+  "store_name": {
+    "value": "CROWN'S POWER PWD DETERGENT SKG",
+    "confidence": 0.678,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Counter      : 02",
+      "price": "19.80",
+      "confidence": 0.835
+    },
+    {
+      "name": "MIGHTY MARK DISHWASH 11L",
+      "price": "19.80",
+      "confidence": 0.841
+    },
+    {
+      "name": "UDANG XL",
+      "price": "126.88",
+      "confidence": 0.852
+    },
+    {
+      "name": "UDANG XL",
+      "price": "125.69",
+      "confidence": 0.866
+    },
+    {
+      "name": "WIN CENDOL (GROSS 1.SKG, NET 1KG)",
+      "price": "9.02",
+      "confidence": 0.848
+    },
+    {
+      "name": "IKAN BILIS C TIMBANG",
+      "price": "74.80",
+      "confidence": 0.868
+    },
+    {
+      "name": "AJINOMOTO 20X1KG",
+      "price": "210.00",
+      "confidence": 0.844
+    },
+    {
+      "name": "ABC TEPUNG UBI 1OXIKG",
+      "price": "28.00",
+      "confidence": 0.831
+    }
+  ],
+  "total_amount": {
+    "value": "674.00",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 613.99,
+      "subtotal": 673.99,
+      "total": 674.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

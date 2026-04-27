@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "LIAN HING STATIONERY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "30/03/2018",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "Durafile H399 (110 \u00d7 95mm)",
+      "price": "116.60",
+      "confidence": 0.854
+    },
+    {
+      "name": "Metal Name Badge Clip   2 SR",
+      "price": "42.40",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "159.00",
+    "confidence": 0.899,
+    "reconciliation": {
+      "item_sum": 159.0,
+      "subtotal": null,
+      "total": 159.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

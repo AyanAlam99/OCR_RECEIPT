@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "15/01/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "HOES PIN",
+      "price": "7.95",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.63",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 7.95,
+      "subtotal": null,
+      "total": 0.63,
+      "status": "MISMATCH"
+    }
+  }
+}

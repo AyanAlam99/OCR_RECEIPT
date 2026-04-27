@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "SECURE PARKING",
+    "confidence": 0.82
+  },
+  "date": {
+    "value": "23.03.18",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "EXIT TIME:",
+      "price": "23.03",
+      "confidence": 0.869
+    },
+    {
+      "name": "PARK-DUR.: D:HH:MM",
+      "price": "23.03",
+      "confidence": 0.869
+    },
+    {
+      "name": "Add GST          RM",
+      "price": "0.94",
+      "confidence": 0.862
+    },
+    {
+      "name": "Rate incl. 6% GST THANK YOU FOR YOUR",
+      "price": "1.00",
+      "confidence": 0.82
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

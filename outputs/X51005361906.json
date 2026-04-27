@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SELANGOR DARULEHSAN",
+    "confidence": 0.811
+  },
+  "date": {
+    "value": "27/01/2018",
+    "confidence": 0.991
+  },
+  "items": [
+    {
+      "name": "DOUBLE SIDE FOAM TAPE 18MM",
+      "price": "3.80",
+      "confidence": 0.869
+    },
+    {
+      "name": "CAMIS SQ BOOK 200",
+      "price": "13.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "EAGLE F4 200 FOOLSCAP BOOK",
+      "price": "5.20",
+      "confidence": 0.869
+    },
+    {
+      "name": "EAGLE F4 120 NUMBERING FOOLSCAP BOOK",
+      "price": "3.80",
+      "confidence": 0.832
+    }
+  ],
+  "total_amount": {
+    "value": "27.35",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 25.8,
+      "subtotal": null,
+      "total": 27.35,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

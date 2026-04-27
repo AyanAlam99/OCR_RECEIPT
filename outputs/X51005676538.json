@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "Item                Qty    S/Price  Amount Tax",
+      "price": "3.71",
+      "confidence": 0.87
+    },
+    {
+      "name": "25MM GI NIPPLE",
+      "price": "1.27",
+      "confidence": 0.859
+    },
+    {
+      "name": "SEAL TAPE",
+      "price": "5.83",
+      "confidence": 0.87
+    },
+    {
+      "name": "32MM POLY SOCKET",
+      "price": "33.92",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "42.20",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 44.73,
+      "subtotal": null,
+      "total": 42.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.809
+  },
+  "date": {
+    "value": "02/04/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "PYE 921 PLASTER",
+      "price": "19.08",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PYE 921 PLASTER",
+      "price": "248.04",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "KAPUR AIR (A1)",
+      "price": "15.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SPAN HANDLE Total Qty:   21",
+      "price": "6.36",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Excluding GST):",
+      "price": "270.30",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "15.30",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 559.68,
+      "subtotal": null,
+      "total": 15.3,
+      "status": "MISMATCH"
+    }
+  }
+}

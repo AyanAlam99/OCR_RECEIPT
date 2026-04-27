@@ -1,0 +1,112 @@
+{
+  "store_name": {
+    "value": "TRADER JOE's",
+    "confidence": 0.972
+  },
+  "date": {
+    "value": "06-28-2014",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "R-CARROTS SHREDDED 10 OZ",
+      "price": "1.29",
+      "confidence": 0.86
+    },
+    {
+      "name": "R-CUCUMBERS PERSIAN 1 LB",
+      "price": "1.99",
+      "confidence": 0.869
+    },
+    {
+      "name": "TOMATOES CRUSHED NO SALT",
+      "price": "1.59",
+      "confidence": 0.86
+    },
+    {
+      "name": "TOMATOES WHOLE NO SALT W/BASIL",
+      "price": "1.59",
+      "confidence": 0.868
+    },
+    {
+      "name": "ORGANIC OLD FASHIONED OATMEAL",
+      "price": "2.69",
+      "confidence": 0.866
+    },
+    {
+      "name": "MINI-PEARL TOMATOES..",
+      "price": "2.49",
+      "confidence": 0.867
+    },
+    {
+      "name": "PKG SHREDDED MOZZARELLA LITE T",
+      "price": "3.99",
+      "confidence": 0.865
+    },
+    {
+      "name": "EGGS 1 DOZ ORGANIC BROWN.",
+      "price": "3.79",
+      "confidence": 0.862
+    },
+    {
+      "name": "BEANS GARBANZO",
+      "price": "0.89",
+      "confidence": 0.869
+    },
+    {
+      "name": "SPROUTED CA STYLE",
+      "price": "2.99",
+      "confidence": 0.834
+    },
+    {
+      "name": "A-AVOCADOS HASS BAG 4CT",
+      "price": "3.99",
+      "confidence": 0.854
+    },
+    {
+      "name": "A-APPLE BAG JAZZ 2 LB",
+      "price": "2.99",
+      "confidence": 0.858
+    },
+    {
+      "name": "A-PEPPER BELL EACH XL RED",
+      "price": "0.99",
+      "confidence": 0.864
+    },
+    {
+      "name": "GROCERY NON TAXABLE",
+      "price": "0.98",
+      "confidence": 0.865
+    },
+    {
+      "name": "BANANAS ORGANIC",
+      "price": "0.87",
+      "confidence": 0.866
+    },
+    {
+      "name": "CREAMY SALTED PEANUT BUTTER",
+      "price": "2.49",
+      "confidence": 0.868
+    },
+    {
+      "name": "WHL WHT PITA BREAD",
+      "price": "1.69",
+      "confidence": 0.86
+    },
+    {
+      "name": "GROCERY NON TAXABLE",
+      "price": "1.38",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "38.68",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 38.68,
+      "subtotal": 38.68,
+      "total": 38.68,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

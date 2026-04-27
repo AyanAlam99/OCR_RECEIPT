@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "LA STATIONERY SDN BHD (640899-P)",
+    "confidence": 0.818
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.989
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

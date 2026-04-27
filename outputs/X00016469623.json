@@ -1,0 +1,43 @@
+{
+  "store_name": {
+    "value": "MR D.T.Y. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "KILAI' ECO AUTO WASH &WAX EW-1O00-1L",
+      "price": "3.11",
+      "confidence": 0.86
+    },
+    {
+      "name": "KLEFNSO AJAIB 99 SERAI WANYI 9O0G WDOO - 15",
+      "price": "11.23",
+      "confidence": 0.854
+    },
+    {
+      "name": "HANDKERCHIEF 713862PCS",
+      "price": "7.45",
+      "confidence": 0.833
+    },
+    {
+      "name": "i X",
+      "price": "4.50",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "30.91",
+    "confidence": 0.903,
+    "reconciliation": {
+      "item_sum": 26.29,
+      "subtotal": null,
+      "total": 30.91,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

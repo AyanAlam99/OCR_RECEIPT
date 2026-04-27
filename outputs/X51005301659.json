@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "HOME MASTER HARDWARE &",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "22/12/2017",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "RM   Code",
+      "price": "15.90",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "24MMX7Y M.QNE TAPE",
+      "price": "15.90",
+      "confidence": 0.661,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Payment :",
+      "price": "50.00",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "15.90",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 81.8,
+      "subtotal": 15.9,
+      "total": 15.9,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "Taste Of Ihe Wor Id Sdn Bhd",
+    "confidence": 0.897
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Tiger Bucket",
+      "price": "58.30",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "64.15",
+    "confidence": 0.901,
+    "reconciliation": {
+      "item_sum": 58.3,
+      "subtotal": null,
+      "total": 64.15,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

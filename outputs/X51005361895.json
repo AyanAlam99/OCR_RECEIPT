@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "FUYI MINLMARKET",
+    "confidence": 0.822
+  },
+  "date": {
+    "value": "25/01/2018",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "KOTAI",
+      "price": "8.49",
+      "confidence": 0.854
+    },
+    {
+      "name": "Total Includes GST 6% Customer's Payment",
+      "price": "9.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "Change GST Summary              Amount           Tax",
+      "price": "41.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

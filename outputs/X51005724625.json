@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.812
+  },
+  "date": {
+    "value": "12/03/2018",
+    "confidence": 0.997
+  },
+  "items": [
+    {
+      "name": "PASIR KASAR (D)",
+      "price": "127.20",
+      "confidence": 0.87
+    },
+    {
+      "name": "BATU 3/4 (D)",
+      "price": "68.90",
+      "confidence": 0.861
+    },
+    {
+      "name": "SIMEN",
+      "price": "87.45",
+      "confidence": 0.867
+    }
+  ],
+  "total_amount": {
+    "value": "267.50",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 283.55,
+      "subtotal": null,
+      "total": 267.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

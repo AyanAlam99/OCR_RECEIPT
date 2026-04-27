@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "BREWERY TAP",
+    "confidence": 0.913
+  },
+  "date": {
+    "value": "30/03/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "T  Tiger 2 Bucket - HH",
+      "price": "95.00",
+      "confidence": 0.72
+    },
+    {
+      "name": "Chicken wings",
+      "price": "22.00",
+      "confidence": 0.863
+    },
+    {
+      "name": "French Fries",
+      "price": "12.00",
+      "confidence": 0.867
+    },
+    {
+      "name": "Tiger Bucket- HH",
+      "price": "50.00",
+      "confidence": 0.864
+    },
+    {
+      "name": "Round ing Adj",
+      "price": "0.01",
+      "confidence": 0.86
+    }
+  ],
+  "total_amount": {
+    "value": "189.75",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 179.01,
+      "subtotal": 179.0,
+      "total": 189.75,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "store_name": {
+    "value": "SATU KAMPUNG ENTERPRISE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Item             Qty  S/Price S/Price   Amount   T a2",
+      "price": "63.00",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "59.43",
+    "confidence": 0.902,
+    "reconciliation": {
+      "item_sum": 63.0,
+      "subtotal": null,
+      "total": 59.43,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

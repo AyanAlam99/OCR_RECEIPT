@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "03/01/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "Item                  Qty     S/Price   Amount  Tax",
+      "price": "90.10",
+      "confidence": 0.87
+    },
+    {
+      "name": "5LT BIG TRFE HIGH GLOSS PAINT",
+      "price": "4.24",
+      "confidence": 0.856
+    }
+  ],
+  "total_amount": {
+    "value": "94.34",
+    "confidence": 0.906,
+    "reconciliation": {
+      "item_sum": 94.34,
+      "subtotal": null,
+      "total": 94.34,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

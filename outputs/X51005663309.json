@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "KOH SENG HARDWARE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "5.30",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 0.0,
+      "subtotal": null,
+      "total": 5.3,
+      "status": "MISMATCH"
+    }
+  }
+}

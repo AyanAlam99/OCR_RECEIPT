@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.701
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "STERILE FILTRAT Sub-total",
+      "price": "5.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales Incl GST",
+      "price": "5.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "5.57",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 11.8,
+      "subtotal": null,
+      "total": 5.57,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.75
+  },
+  "date": {
+    "value": "3-03-18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "PLASTIC BAGS                                      S",
+      "price": "0.20",
+      "confidence": 0.555,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "6.20",
+    "confidence": 0.598,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 0.2,
+      "subtotal": null,
+      "total": 6.2,
+      "status": "MISMATCH"
+    }
+  }
+}

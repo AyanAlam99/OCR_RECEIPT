@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "JLN JEJAKA, TAMAN MALURI",
+    "confidence": 0.791
+  },
+  "date": {
+    "value": "09/03/2018",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "FRI-SAT:1000 HRS - 2300 HRS",
+      "price": "15.50",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BIO ZIP POWDER Sub total",
+      "price": "15.50",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales Incl GST",
+      "price": "31.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "1.76",
+    "confidence": 0.3,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 62.0,
+      "subtotal": null,
+      "total": 1.76,
+      "status": "MISMATCH"
+    }
+  }
+}

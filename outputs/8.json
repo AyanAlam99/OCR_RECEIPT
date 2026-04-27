@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "COSTCo WHOLESALE",
+    "confidence": 0.845
+  },
+  "date": {
+    "value": "04/20/2016",
+    "confidence": 0.783
+  },
+  "items": [
+    {
+      "name": "FF BS BREAST",
+      "price": "23.99",
+      "confidence": 0.863
+    },
+    {
+      "name": "KS DICED TOM",
+      "price": "6.49",
+      "confidence": 0.863
+    },
+    {
+      "name": "JACKORGSALSA",
+      "price": "2.97",
+      "confidence": 0.868
+    },
+    {
+      "name": "18CT EGGS",
+      "price": "12.87",
+      "confidence": 0.866
+    },
+    {
+      "name": "GRAPE TOMATO",
+      "price": "6.29",
+      "confidence": 0.859
+    },
+    {
+      "name": "ECO HALF PAN",
+      "price": "6.49",
+      "confidence": 0.86
+    },
+    {
+      "name": "GRND TURKEY",
+      "price": "18.47",
+      "confidence": 0.867
+    },
+    {
+      "name": "CHPD ONION",
+      "price": "3.59",
+      "confidence": 0.854
+    },
+    {
+      "name": "MONT JACK 2",
+      "price": "4.45",
+      "confidence": 0.866
+    }
+  ],
+  "total_amount": {
+    "value": "89.13",
+    "confidence": 0.891,
+    "reconciliation": {
+      "item_sum": 85.61,
+      "subtotal": 85.61,
+      "total": 89.13,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MY HAPPY PHARMACY PLT",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "Item                  Qty    S/Price  Amount  Tax",
+      "price": "20.50",
+      "confidence": 0.857
+    }
+  ],
+  "total_amount": {
+    "value": "19.34",
+    "confidence": 0.901,
+    "reconciliation": {
+      "item_sum": 20.5,
+      "subtotal": null,
+      "total": 19.34,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

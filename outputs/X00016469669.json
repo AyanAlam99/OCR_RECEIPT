@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "ABC HO TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "09/01/2019",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "Plastic",
+      "price": "31.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "31.00",
+    "confidence": 0.997,
+    "reconciliation": {
+      "item_sum": 31.0,
+      "subtotal": null,
+      "total": 31.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

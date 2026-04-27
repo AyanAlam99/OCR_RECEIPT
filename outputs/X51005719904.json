@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Yam Fresh",
+    "confidence": 0.72
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Take Away",
+      "price": "7.50",
+      "confidence": 0.697,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Pear1",
+      "price": "3.00",
+      "confidence": 0.695,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Take Away",
+      "price": "8.90",
+      "confidence": 0.679,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "29.30",
+    "confidence": 0.649,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 19.4,
+      "subtotal": null,
+      "total": 29.3,
+      "status": "MISMATCH"
+    }
+  }
+}

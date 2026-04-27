@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "KOH SENG HARDWARE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "04/12/2017",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "SR:EXTENSION LADDER 12' X 12' TOTAL QUANTITY             2",
+      "price": "848.00",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CHANGE",
+      "price": "848.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Gst Summary",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "48.00",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1696.0,
+      "subtotal": null,
+      "total": 48.0,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "PAGOH REST AND SERVICE AREA",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "23/03/2018",
+    "confidence": 0.884
+  },
+  "items": [
+    {
+      "name": "JALAN JALAN (Majaiah)",
+      "price": "10.00",
+      "confidence": 0.833
+    }
+  ],
+  "total_amount": {
+    "value": "10.00",
+    "confidence": 0.989,
+    "reconciliation": {
+      "item_sum": 10.0,
+      "subtotal": 10.0,
+      "total": 10.0,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

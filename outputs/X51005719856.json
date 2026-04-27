@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "Golden Scoop Sdn Bhd (169609-A)",
+    "confidence": 0.712
+  },
+  "date": {
+    "value": "16/02/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "Double Rg. Cup     1",
+      "price": "20.00",
+      "confidence": 0.851
+    },
+    {
+      "name": "Colour Rice           1",
+      "price": "1.50",
+      "confidence": 0.866
+    },
+    {
+      "name": "Summary",
+      "price": "1.22",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "21.50",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 22.72,
+      "subtotal": 21.5,
+      "total": 21.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

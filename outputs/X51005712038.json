@@ -1,0 +1,61 @@
+{
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "28/03/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "OPEN CODE-SR ITEM",
+      "price": "24.00",
+      "confidence": 0.71
+    },
+    {
+      "name": "U                    1x7.00",
+      "price": "7.00",
+      "confidence": 0.631,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "STAR 12X13 (1X180)",
+      "price": "1.00",
+      "confidence": 0.722
+    },
+    {
+      "name": "PKT                   1x1.00",
+      "price": "1.00",
+      "confidence": 0.644,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "STAR 15X16 AA (1X120)",
+      "price": "1.80",
+      "confidence": 0.719
+    },
+    {
+      "name": "PKT                   1x1.80",
+      "price": "1.80",
+      "confidence": 0.644,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "S(6%)",
+      "price": "1.70",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "30.00",
+    "confidence": 0.713,
+    "reconciliation": {
+      "item_sum": 38.3,
+      "subtotal": 30.0,
+      "total": 30.0,
+      "status": "MISMATCH"
+    }
+  }
+}

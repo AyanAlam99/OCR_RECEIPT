@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "10/18/20",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "GV OATMEAL",
+      "price": "1.760",
+      "confidence": 0.866
+    },
+    {
+      "name": "OT 200Z TUM",
+      "price": "6.74",
+      "confidence": 0.839
+    },
+    {
+      "name": "M ATHLETICS",
+      "price": "24.97",
+      "confidence": 0.853
+    },
+    {
+      "name": "SUBTOTAL   464",
+      "price": "12.97",
+      "confidence": 0.856
+    }
+  ],
+  "total_amount": {
+    "value": "49.90",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 46.44,
+      "subtotal": null,
+      "total": 49.9,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

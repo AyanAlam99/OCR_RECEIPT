@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "05/01/2017",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "PVC WALLPLUG",
+      "price": "1.00",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "50PCS) 5 Type:  1     Total",
+      "price": "5.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "5.00",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Tolal Inclusive GST:",
+      "price": "0.00",
+      "confidence": 0.634,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GST Summary",
+      "price": "5.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "5.00",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 16.0,
+      "subtotal": null,
+      "total": 5.0,
+      "status": "MISMATCH"
+    }
+  }
+}

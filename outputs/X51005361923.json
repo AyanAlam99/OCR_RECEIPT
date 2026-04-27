@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN BHD",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "02/01/2018",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "Total Qty :     Ng",
+      "price": "4.20",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "4.20",
+    "confidence": 0.986,
+    "reconciliation": {
+      "item_sum": 4.2,
+      "subtotal": null,
+      "total": 4.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

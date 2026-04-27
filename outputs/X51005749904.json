@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "OLS 23 B621-1",
+      "price": "2.00",
+      "confidence": 0.864
+    },
+    {
+      "name": "OPP TAPE 1.5\"",
+      "price": "2.00",
+      "confidence": 0.868
+    }
+  ],
+  "total_amount": {
+    "value": "4.00",
+    "confidence": 0.916,
+    "reconciliation": {
+      "item_sum": 4.0,
+      "subtotal": null,
+      "total": 4.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.819
+  },
+  "date": {
+    "value": "03/02/2018",
+    "confidence": 0.997
+  },
+  "items": [
+    {
+      "name": "Item                 Qty    S/Price   Amount Tax",
+      "price": "9.54",
+      "confidence": 0.87
+    },
+    {
+      "name": "12M WIRE ROPE CLIP",
+      "price": "4.77",
+      "confidence": 0.869
+    },
+    {
+      "name": "4\" X KINKI BRD 2 WAY SCREWDRIVER",
+      "price": "46.64",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "60.95",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 60.95,
+      "subtotal": null,
+      "total": 60.95,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

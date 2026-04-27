@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "PUSAT BANDAR PUCHONG",
+    "confidence": 0.807
+  },
+  "date": {
+    "value": "21/03/2018",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "(RM)     (RM)",
+      "price": "7.00",
+      "confidence": 0.635,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.42",
+    "confidence": 0.508,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 7.0,
+      "subtotal": null,
+      "total": 0.42,
+      "status": "MISMATCH"
+    }
+  }
+}

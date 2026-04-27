@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/04/2017",
+    "confidence": 0.88
+  },
+  "items": [
+    {
+      "name": "1.2 3/4\" ALUMINIUM ROD",
+      "price": "7.20",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "7.20",
+    "confidence": 1.0,
+    "reconciliation": {
+      "item_sum": 7.2,
+      "subtotal": null,
+      "total": 7.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

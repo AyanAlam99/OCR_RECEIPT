@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "KEDAI BUKU NEW ACHEIVERS",
+    "confidence": 0.819
+  },
+  "date": {
+    "value": "28/12/2017",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR: CRE ASTAR LAMINATING FILM A4 100STS",
+      "price": "42.16",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "38.15",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 42.16,
+      "subtotal": 40.0,
+      "total": 38.15,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

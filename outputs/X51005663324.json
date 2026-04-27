@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "28/12/2017",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "Item",
+      "price": "4.24",
+      "confidence": 0.868
+    },
+    {
+      "name": "NAIL (PER/PACK) - RM2",
+      "price": "7.95",
+      "confidence": 0.857
+    },
+    {
+      "name": "1 1/2\" SANCORA PAINT BRUSH",
+      "price": "10.07",
+      "confidence": 0.863
+    },
+    {
+      "name": "1/2\" SANCORA PAINT BRUSH",
+      "price": "10.07",
+      "confidence": 0.87
+    },
+    {
+      "name": "7\" PAINT ROLLER SET",
+      "price": "53.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "1LT BIG TREE HIGH GLOSS PAINT",
+      "price": "133.56",
+      "confidence": 0.869
+    },
+    {
+      "name": "CEMENT BRICK",
+      "price": "47.70",
+      "confidence": 0.87
+    },
+    {
+      "name": "6' X 35# CORRUGATED ROOFING SHEET",
+      "price": "18.02",
+      "confidence": 0.866
+    },
+    {
+      "name": "6' X 35 CORRUGATED ROOFING SHEET",
+      "price": "18.02",
+      "confidence": 0.87
+    },
+    {
+      "name": "CEMENT (50KG)",
+      "price": "33.92",
+      "confidence": 0.851
+    },
+    {
+      "name": "3     742",
+      "price": "22.26",
+      "confidence": 0.795
+    },
+    {
+      "name": "2     40 28",
+      "price": "80.56",
+      "confidence": 0.781
+    }
+  ],
+  "total_amount": {
+    "value": "465.34",
+    "confidence": 0.905,
+    "reconciliation": {
+      "item_sum": 439.37,
+      "subtotal": null,
+      "total": 465.34,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

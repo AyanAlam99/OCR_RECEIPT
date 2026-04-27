@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SELANGOR DARUL EHSAN",
+    "confidence": 0.808
+  },
+  "date": {
+    "value": "18/01/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "JIANYU STELL RULER 30CM THICK",
+      "price": "3.30",
+      "confidence": 0.864
+    },
+    {
+      "name": "LAMINATE FILM",
+      "price": "1.30",
+      "confidence": 0.86
+    }
+  ],
+  "total_amount": {
+    "value": "4.90",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 4.6,
+      "subtotal": null,
+      "total": 4.9,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

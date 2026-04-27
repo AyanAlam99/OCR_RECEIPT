@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "L TWO FLORIST & HANDICRAFT",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "21/03/2018",
+    "confidence": 0.997
+  },
+  "items": [
+    {
+      "name": "NE3555           2",
+      "price": "2.00",
+      "confidence": 0.594,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "1 1/2\" SAFETY PIN",
+      "price": "7.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "1/2\" SAFETY PIN",
+      "price": "7.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DISC :",
+      "price": "0.00",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "9.00",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 16.0,
+      "subtotal": null,
+      "total": 9.0,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "store_name": {
+    "value": "WHOLE FOODS",
+    "confidence": 0.785
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "PL TORTILLA'S",
+      "price": "6.99",
+      "confidence": 0.869
+    },
+    {
+      "name": "CAGE FREE ALL WHIT",
+      "price": "3.69",
+      "confidence": 0.824
+    },
+    {
+      "name": "BLACK BEANS",
+      "price": "1.29",
+      "confidence": 0.77
+    },
+    {
+      "name": "Frozen Mangoes 160",
+      "price": "2.99",
+      "confidence": 0.867
+    },
+    {
+      "name": "Whole Strawberries",
+      "price": "2.99",
+      "confidence": 0.869
+    },
+    {
+      "name": "OG LF COTTAGE CHEE",
+      "price": "3.49",
+      "confidence": 0.862
+    },
+    {
+      "name": "MAHI MAHI FILLETS",
+      "price": "8.99",
+      "confidence": 0.869
+    },
+    {
+      "name": "California Harvest",
+      "price": "2.69",
+      "confidence": 0.863
+    },
+    {
+      "name": "WT          PLUMS BLACK Cv",
+      "price": "2.15",
+      "confidence": 0.799
+    },
+    {
+      "name": "NHP SLICED OVEN RO",
+      "price": "3.99",
+      "confidence": 0.86
+    },
+    {
+      "name": "NHP SLICED HICKORY",
+      "price": "3.99",
+      "confidence": 0.866
+    },
+    {
+      "name": "WT           GALA APPLES OG",
+      "price": "3.26",
+      "confidence": 0.85
+    }
+  ],
+  "total_amount": {
+    "value": "45.44",
+    "confidence": 0.899,
+    "reconciliation": {
+      "item_sum": 46.51,
+      "subtotal": null,
+      "total": 45.44,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "07/22/16",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "DIABETES",
+      "price": "12.58",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "12.58",
+    "confidence": 0.906,
+    "reconciliation": {
+      "item_sum": 12.58,
+      "subtotal": 12.58,
+      "total": 12.58,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

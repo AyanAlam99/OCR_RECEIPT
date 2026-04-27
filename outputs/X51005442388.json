@@ -1,0 +1,43 @@
+{
+  "store_name": {
+    "value": "Bubble N T",
+    "confidence": 0.573,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "20/03/18",
+    "confidence": 0.897
+  },
+  "items": [
+    {
+      "name": "MASAI JOHOR",
+      "price": "11.80",
+      "confidence": 0.866
+    },
+    {
+      "name": "Bubble N T",
+      "price": "4.90",
+      "confidence": 0.844
+    },
+    {
+      "name": "Yam N T",
+      "price": "1.00",
+      "confidence": 0.835
+    },
+    {
+      "name": "ADD ON        RH",
+      "price": "3.90",
+      "confidence": 0.864
+    }
+  ],
+  "total_amount": {
+    "value": "21.60",
+    "confidence": 0.853,
+    "reconciliation": {
+      "item_sum": 21.6,
+      "subtotal": null,
+      "total": 21.6,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

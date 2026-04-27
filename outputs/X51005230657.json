@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "CROSS CHANNEL NETWORK SDN. BHD.",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "31/12/2017",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "20MM HERO PVC CONDUIT PIPE 1",
+      "price": "1.80",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "15A PVC CONNEC TOR @",
+      "price": "1.91",
+      "confidence": 0.658,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "3\" X 3\" 2862 A1 PVC NUT BOX @  1",
+      "price": "0.53",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "7.95",
+    "confidence": 0.507,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 4.24,
+      "subtotal": null,
+      "total": 7.95,
+      "status": "MISMATCH"
+    }
+  }
+}

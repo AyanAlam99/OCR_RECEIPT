@@ -1,0 +1,71 @@
+{
+  "store_name": {
+    "value": "RESTAURANT JIAWEI",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "23/2/2018",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "Red Cat Fish",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Ginger Clams (S)",
+      "price": "0.00",
+      "confidence": 0.65,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Beancurd W Dao Gan (S)",
+      "price": "0.00",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "G. Dragon Chives (S)",
+      "price": "0.00",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Pu Er (1-3)",
+      "price": "0.00",
+      "confidence": 0.641,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Rice (B)",
+      "price": "0.00",
+      "confidence": 0.613,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Rice Small",
+      "price": "0.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Service Char.                        RM",
+      "price": "0.00",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "110.00",
+    "confidence": 0.507,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 0.0,
+      "subtotal": 110.0,
+      "total": 110.0,
+      "status": "MISMATCH"
+    }
+  }
+}

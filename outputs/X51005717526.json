@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "ng Alaf Restaurants Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "02/03/2018",
+    "confidence": 0.884
+  },
+  "items": [
+    {
+      "name": "Selangor",
+      "price": "39.474",
+      "confidence": 0.863
+    },
+    {
+      "name": "L Coke 1 L Fries",
+      "price": "11.10",
+      "confidence": 0.869
+    },
+    {
+      "name": "Barbecue Sauce AyamGoreng(TA)",
+      "price": "7.50",
+      "confidence": 0.87
+    },
+    {
+      "name": "TakeOut Total (incl GST)",
+      "price": "9.90",
+      "confidence": 0.867
+    },
+    {
+      "name": "Total Rounded",
+      "price": "28.50",
+      "confidence": 0.87
+    },
+    {
+      "name": "TOTAL INCLUDES 6% GST",
+      "price": "21.50",
+      "confidence": 0.87
+    },
+    {
+      "name": "Thank You and Please Come Again.",
+      "price": "1.61",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

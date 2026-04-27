@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "12/08/15",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "SW HR0 FGHTR",
+      "price": "6.94",
+      "confidence": 0.85
+    }
+  ],
+  "total_amount": {
+    "value": "7.43",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 6.94,
+      "subtotal": 6.94,
+      "total": 7.43,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

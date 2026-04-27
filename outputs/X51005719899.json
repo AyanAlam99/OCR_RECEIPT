@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "LITTLE CRAVINGS S SDN BHD (562007-D)",
+    "confidence": 0.816
+  },
+  "date": {
+    "value": "18-03-2018",
+    "confidence": 0.9
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

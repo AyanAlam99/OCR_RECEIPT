@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Ottogo Enterprise",
+    "confidence": 0.807
+  },
+  "date": {
+    "value": "21/01/2018",
+    "confidence": 0.991
+  },
+  "items": [
+    {
+      "name": "Hazelnut Coco -L       1",
+      "price": "7.50",
+      "confidence": 0.854
+    },
+    {
+      "name": "Sub Total     RM8 60 Rounding     RMO.00",
+      "price": "1.10",
+      "confidence": 0.848
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

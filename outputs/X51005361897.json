@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "SELANGOR DARUL EHSAN",
+    "confidence": 0.806
+  },
+  "date": {
+    "value": "17/01/2018",
+    "confidence": 0.992
+  },
+  "items": [
+    {
+      "name": "28.00 - LION FILE 220307 LAMINATING FILM",
+      "price": "26.00",
+      "confidence": 0.641,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Qty. :     1",
+      "price": "26.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SUB-TOTAL (EX)",
+      "price": "26.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TOTAL TAX",
+      "price": "1.56",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "27.55",
+    "confidence": 0.3,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 79.56,
+      "subtotal": null,
+      "total": 27.55,
+      "status": "MISMATCH"
+    }
+  }
+}

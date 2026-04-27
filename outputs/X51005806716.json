@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.827
+  },
+  "date": {
+    "value": "17/01/2018",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "TAX INVOICE",
+      "price": "4.21",
+      "confidence": 0.718
+    },
+    {
+      "name": "UNICORN-20CM HALF WHITE RULEF SR",
+      "price": "0.80",
+      "confidence": 0.72
+    }
+  ],
+  "total_amount": {
+    "value": "7.00",
+    "confidence": 0.714,
+    "reconciliation": {
+      "item_sum": 5.01,
+      "subtotal": null,
+      "total": 7.0,
+      "status": "MISMATCH"
+    }
+  }
+}

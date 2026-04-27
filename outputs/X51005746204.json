@@ -1,0 +1,30 @@
+{
+  "store_name": {
+    "value": "BEMED (SP) SDN. BHD.",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Alpha lipid life line          BR",
+      "price": "143.70",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "308.70",
+    "confidence": 0.581,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 143.7,
+      "subtotal": 308.7,
+      "total": 308.7,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARBY SON BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "01-03-2018",
+    "confidence": 0.898
+  },
+  "items": [
+    {
+      "name": "RM)",
+      "price": "43.37",
+      "confidence": 0.756
+    },
+    {
+      "name": "40240-         1",
+      "price": "49.42",
+      "confidence": 0.671,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "TENdFRLoIN",
+      "price": "049.66",
+      "confidence": 0.686,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BiTTERCUP LUXURY SPREAD 5O0G",
+      "price": "09.90",
+      "confidence": 0.725
+    },
+    {
+      "name": "Qy CInCaU 2KG",
+      "price": "03.90",
+      "confidence": 0.705
+    },
+    {
+      "name": "QUANTITY : 35 Units",
+      "price": "164.00",
+      "confidence": 0.752
+    }
+  ],
+  "total_amount": {
+    "value": "408.45",
+    "confidence": 0.713,
+    "reconciliation": {
+      "item_sum": 320.25,
+      "subtotal": null,
+      "total": 408.45,
+      "status": "MISMATCH"
+    }
+  }
+}

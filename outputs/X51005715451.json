@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "6/02/18",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "CORR. PEN ZLI-W",
+      "price": "7.65",
+      "confidence": 0.855
+    },
+    {
+      "name": "PB F/RING FILE W/CLI",
+      "price": "6.99",
+      "confidence": 0.839
+    }
+  ],
+  "total_amount": {
+    "value": "14.64",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 14.64,
+      "subtotal": null,
+      "total": 14.64,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

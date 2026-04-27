@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR 100100000001- Chicken",
+      "price": "2.70",
+      "confidence": 0.854
+    },
+    {
+      "name": "SR I00100000060- 4 Vege",
+      "price": "5.50",
+      "confidence": 0.844
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.976,
+    "reconciliation": {
+      "item_sum": 8.2,
+      "subtotal": null,
+      "total": 8.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

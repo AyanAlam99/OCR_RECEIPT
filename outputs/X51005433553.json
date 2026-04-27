@@ -1,0 +1,43 @@
+{
+  "store_name": {
+    "value": "* TAX INVOICE *",
+    "confidence": 0.594,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "11/03/2018",
+    "confidence": 0.89
+  },
+  "items": [
+    {
+      "name": "Green Tea",
+      "price": "1.50",
+      "confidence": 0.827
+    },
+    {
+      "name": "Kake Udon R",
+      "price": "8.80",
+      "confidence": 0.798
+    },
+    {
+      "name": "Enoki Tempura",
+      "price": "2.80",
+      "confidence": 0.868
+    },
+    {
+      "name": "Payment Details",
+      "price": "0.74",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "13.10",
+    "confidence": 0.884,
+    "reconciliation": {
+      "item_sum": 13.84,
+      "subtotal": 13.1,
+      "total": 13.1,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

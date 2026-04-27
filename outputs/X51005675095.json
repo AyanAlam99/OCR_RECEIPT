@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "SUN VICTORY SDN BHD",
+    "confidence": 0.81
+  },
+  "date": {
+    "value": "14/01/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "Total",
+      "price": "6.00",
+      "confidence": 0.856
+    },
+    {
+      "name": "Paid",
+      "price": "4.00",
+      "confidence": 0.862
+    },
+    {
+      "name": "Chamge RMO.00",
+      "price": "4.00",
+      "confidence": 0.854
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

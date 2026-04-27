@@ -1,0 +1,65 @@
+{
+  "store_name": {
+    "value": "SIMPLIFIED TAX INVOICE",
+    "confidence": 0.816
+  },
+  "date": {
+    "value": "29/01/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "IBUPROFEN FILM COATED TAB",
+      "price": "12.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FEBRICOL - RX 10X10'9",
+      "price": "12.00",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "NOFLUX TABLET TOTAL QUANTITY             14",
+      "price": "20.94",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MASTER",
+      "price": "46.20",
+      "confidence": 0.645,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CHANGE",
+      "price": "46.20",
+      "confidence": 0.664,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GoodS sOlD arE NOtT RetUrnablE, THANK YOU.",
+      "price": "0.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "46.20",
+    "confidence": 0.284,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 137.34,
+      "subtotal": null,
+      "total": 46.2,
+      "status": "MISMATCH"
+    }
+  }
+}

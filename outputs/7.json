@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 1.0
+  },
+  "date": {
+    "value": "11/13/17",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "WING PLATE",
+      "price": "3.98",
+      "confidence": 0.859
+    },
+    {
+      "name": "ASST 27",
+      "price": "4.88",
+      "confidence": 0.866
+    },
+    {
+      "name": "CUTIE CAR",
+      "price": "12.88",
+      "confidence": 0.868
+    }
+  ],
+  "total_amount": {
+    "value": "23.19",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 21.74,
+      "subtotal": 21.74,
+      "total": 23.19,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

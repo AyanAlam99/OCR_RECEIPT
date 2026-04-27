@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "IVOPAC MARKETING SDN BHD (1070687-M)",
+    "confidence": 0.825
+  },
+  "date": {
+    "value": "30/05/2017",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "1.00 PKT",
+      "price": "0.750",
+      "confidence": 0.65,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "1.00 PKT",
+      "price": "8.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR ice Label (PLAIN)",
+      "price": "6.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "2.00 ROLL 2",
+      "price": "1.500",
+      "confidence": 0.639,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Sub Total (Exclusive GST) :",
+      "price": "3.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "T Summary      Amount(RM)     Tax(RM)",
+      "price": "1.20",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "T Summary      Amount(RM)     Tax(RM)",
+      "price": "17.75",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "6 % Terms & Conditions",
+      "price": "17.75",
+      "confidence": 0.647,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Terms & Conditions Goods sold are not refundable with cash.",
+      "price": "1.07",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "18.80",
+    "confidence": 0.6,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 57.02,
+      "subtotal": null,
+      "total": 18.8,
+      "status": "MISMATCH"
+    }
+  }
+}

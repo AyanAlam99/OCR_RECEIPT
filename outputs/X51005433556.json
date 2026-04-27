@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "* TAX INVOICE *",
+    "confidence": 0.596,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "11/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Green Tea",
+      "price": "1.50",
+      "confidence": 0.83
+    },
+    {
+      "name": "Yakiniku Bowl R",
+      "price": "12.80",
+      "confidence": 0.869
+    },
+    {
+      "name": "Negi Tama Beef Bow? R",
+      "price": "31.60",
+      "confidence": 0.862
+    },
+    {
+      "name": "Miso/Wakame+Green Tea",
+      "price": "3.80",
+      "confidence": 0.866
+    },
+    {
+      "name": "Miso Soup",
+      "price": "0.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "C Payment Details",
+      "price": "2.80",
+      "confidence": 0.708
+    }
+  ],
+  "total_amount": {
+    "value": "49.70",
+    "confidence": 0.907,
+    "reconciliation": {
+      "item_sum": 52.5,
+      "subtotal": 49.7,
+      "total": 49.7,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

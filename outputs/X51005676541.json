@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "03/01/2018",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "Item                Qty    S/Price  Amount Tax",
+      "price": "13.78",
+      "confidence": 0.869
+    },
+    {
+      "name": "4\" ROLLER SET",
+      "price": "40.28",
+      "confidence": 0.863
+    },
+    {
+      "name": "7LT TOPLUS EMULSION PAINT",
+      "price": "36.04",
+      "confidence": 0.869
+    },
+    {
+      "name": "CEMENT (50KG)",
+      "price": "4.77",
+      "confidence": 0.845
+    }
+  ],
+  "total_amount": {
+    "value": "89.50",
+    "confidence": 0.894,
+    "reconciliation": {
+      "item_sum": 94.87,
+      "subtotal": null,
+      "total": 89.5,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

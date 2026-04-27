@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "LMMERE BEE",
+    "confidence": 0.608,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "26-03-18",
+    "confidence": 0.859
+  },
+  "items": [],
+  "total_amount": {
+    "value": "10.60",
+    "confidence": 0.894
+  }
+}

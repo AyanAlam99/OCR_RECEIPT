@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "RESTORAN WAN SHENG",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "19-03-2018",
+    "confidence": 0.992
+  },
+  "items": [],
+  "total_amount": {
+    "value": "6.00",
+    "confidence": 0.7
+  }
+}

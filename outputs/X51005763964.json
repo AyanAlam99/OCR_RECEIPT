@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "YONG CEN ENTERPRISE",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "06/01/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "SR:CHAMPIGNONS MUSHROOMS 425G(2 5833X TOTAL QUANTITY      24",
+      "price": "61.99",
+      "confidence": 0.869
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "65.70",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 61.99,
+      "subtotal": null,
+      "total": 65.7,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

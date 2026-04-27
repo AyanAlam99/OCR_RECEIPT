@@ -1,0 +1,22 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.821
+  },
+  "date": {
+    "value": "12/01/2018",
+    "confidence": 0.989
+  },
+  "items": [
+    {
+      "name": "Amount Tax",
+      "price": "7.95",
+      "confidence": 0.848
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

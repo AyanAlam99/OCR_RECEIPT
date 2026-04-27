@@ -1,0 +1,30 @@
+{
+  "store_name": {
+    "value": "NADEJE PRESTIGE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "NADEJE PRESTIGE SDN BHD",
+      "price": "1.116",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "39.00",
+    "confidence": 0.593,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1.12,
+      "subtotal": null,
+      "total": 39.0,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "store_name": {
+    "value": "TMMEE",
+    "confidence": 0.619,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "17-02-18",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "ESAN NAN 'IZ ''d 1O7 TMMEE",
+      "price": "035.66",
+      "confidence": 0.676,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Sales (Inclusive GST) RM",
+      "price": "108.50",
+      "confidence": 0.831
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

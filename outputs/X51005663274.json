@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "LIM SENG THO HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "08/02/2018",
+    "confidence": 0.997
+  },
+  "items": [
+    {
+      "name": "RM    Code",
+      "price": "10.50",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BEG GUNI",
+      "price": "10.50",
+      "confidence": 0.657,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Payment",
+      "price": "10.50",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.50",
+    "confidence": 0.497,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 31.5,
+      "subtotal": 10.5,
+      "total": 10.5,
+      "status": "MISMATCH"
+    }
+  }
+}

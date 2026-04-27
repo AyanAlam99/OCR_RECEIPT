@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.827
+  },
+  "date": {
+    "value": "28/02/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "Type:  7    Total",
+      "price": "11.60",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Type:  7    Total",
+      "price": "0.01",
+      "confidence": 0.654,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Inclusive GST:",
+      "price": "10.45",
+      "confidence": 0.667,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.44",
+    "confidence": 0.3,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 22.06,
+      "subtotal": null,
+      "total": 10.44,
+      "status": "MISMATCH"
+    }
+  }
+}

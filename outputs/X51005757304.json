@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "WELCOME TAX INVOICE",
+    "confidence": 0.66,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "20/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Plastic forks 8pcs",
+      "price": "17.70",
+      "confidence": 0.847
+    },
+    {
+      "name": "5.90 x 3",
+      "price": "17.70",
+      "confidence": 0.79
+    }
+  ],
+  "total_amount": {
+    "value": "35.40",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 35.4,
+      "subtotal": 35.4,
+      "total": 35.4,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

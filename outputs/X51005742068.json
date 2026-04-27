@@ -1,0 +1,22 @@
+{
+  "store_name": {
+    "value": "PREPAY CHIT NUMBER",
+    "confidence": 0.7
+  },
+  "date": {
+    "value": "24-03-2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Item                   U\\Price     Qnty Amount",
+      "price": "6.00",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "HUGO TRADING SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "13/01/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "PKT",
+      "price": "22.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "PKT      887",
+      "price": "17.74",
+      "confidence": 0.795
+    },
+    {
+      "name": "Total Qty. 4 00",
+      "price": "18.80",
+      "confidence": 0.869
+    },
+    {
+      "name": "Total Includes GST 6%",
+      "price": "40.80",
+      "confidence": 0.859
+    },
+    {
+      "name": "Customer's Payment",
+      "price": "40.80",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

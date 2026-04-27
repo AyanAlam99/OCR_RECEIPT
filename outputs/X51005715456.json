@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "KHE ELECTRICAL TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "22/03/2018",
+    "confidence": 0.99
+  },
+  "items": [
+    {
+      "name": "105W E27 PLCE TUBE",
+      "price": "101.76",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "101.75",
+    "confidence": 0.907,
+    "reconciliation": {
+      "item_sum": 101.76,
+      "subtotal": null,
+      "total": 101.75,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

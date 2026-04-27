@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SYL ROASTED DELIGHTS SDN. BHD.",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "r  ,UnUTPORK-       1.0",
+      "price": "12.00",
+      "confidence": 0.828
+    },
+    {
+      "name": "VO2) SOUR & SPICY       1.0",
+      "price": "12.00",
+      "confidence": 0.862
+    },
+    {
+      "name": "B03) JASMINE GREEN     20",
+      "price": "4.60",
+      "confidence": 0.85
+    },
+    {
+      "name": "R05) ROAST PORK +      10",
+      "price": "11.90",
+      "confidence": 0.858
+    },
+    {
+      "name": "Total Qty      7 Total Sales (Excluding GST)    5142",
+      "price": "51.42",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

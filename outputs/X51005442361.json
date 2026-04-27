@@ -1,0 +1,90 @@
+{
+  "store_name": {
+    "value": "Time less Kitchenette Sdn Bhd",
+    "confidence": 0.905
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "Ribs Platter               SR",
+      "price": "259.90",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Naughty Spare Rib - Full       SR",
+      "price": "106.90",
+      "confidence": 0.658,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Apple - 350m1               SR",
+      "price": "13.90",
+      "confidence": 0.588,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Sour Apple Mojito            SR",
+      "price": "18.90",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Berry Easy                 SR",
+      "price": "18.90",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Aust Rib-eye Steak           SR",
+      "price": "74.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Fruity Garden Salad          SR",
+      "price": "21.90",
+      "confidence": 0.646,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "HH Asahi 1+1/2              SR",
+      "price": "77.80",
+      "confidence": 0.589,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Sub-totai:",
+      "price": "593.10",
+      "confidence": 0.657,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "SR=   6%",
+      "price": "33.57",
+      "confidence": 0.591,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "OS=   0%",
+      "price": "0.00",
+      "confidence": 0.578,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "593.10",
+    "confidence": 0.51,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1219.77,
+      "subtotal": null,
+      "total": 593.1,
+      "status": "MISMATCH"
+    }
+  }
+}

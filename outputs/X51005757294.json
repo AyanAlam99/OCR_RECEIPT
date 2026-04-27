@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "18-03-18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "CARBON FIBER CARTRIDGE CTO-98#10'       S",
+      "price": "62.25",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CARBON FIBER CARTRIDGE CTO-9810'       S",
+      "price": "62.25",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "10.00",
+    "confidence": 0.586,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 124.5,
+      "subtotal": null,
+      "total": 10.0,
+      "status": "MISMATCH"
+    }
+  }
+}

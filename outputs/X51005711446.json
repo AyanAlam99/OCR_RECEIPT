@@ -1,0 +1,16 @@
+{
+  "store_name": {
+    "value": "Seksyen 9, Bandar Mahkota Cheras,",
+    "confidence": 0.694,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "date": {
+    "value": "10-03-2018",
+    "confidence": 0.999
+  },
+  "items": [],
+  "total_amount": {
+    "value": "6.81",
+    "confidence": 0.905
+  }
+}

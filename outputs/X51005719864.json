@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "FUN N CHEER (MALURI)",
+    "confidence": 0.802
+  },
+  "date": {
+    "value": "05/01/2018",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "Total Qty 2",
+      "price": "29.80",
+      "confidence": 0.865
+    },
+    {
+      "name": "ADD : GST @ 6% On",
+      "price": "1.69",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "28.11",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 31.49,
+      "subtotal": null,
+      "total": 28.11,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

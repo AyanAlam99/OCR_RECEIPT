@@ -1,0 +1,58 @@
+{
+  "store_name": {
+    "value": "F&P PHARMACY",
+    "confidence": 0.808
+  },
+  "date": {
+    "value": "02/03/2018",
+    "confidence": 1.0
+  },
+  "items": [
+    {
+      "name": "1- HOMECARE GASCOAL 5OMG",
+      "price": "6.00",
+      "confidence": 0.75
+    },
+    {
+      "name": "HOMECARE GASCOAL 5OMG",
+      "price": "5.00",
+      "confidence": 0.763
+    },
+    {
+      "name": "P.P NAPROXEN NA 275 MG",
+      "price": "6.00",
+      "confidence": 0.749
+    },
+    {
+      "name": "YEL LOW LOTION 3O ML",
+      "price": "4.30",
+      "confidence": 0.759
+    },
+    {
+      "name": "PANADOL SOLUBLE TABLET",
+      "price": "3.80",
+      "confidence": 0.751
+    },
+    {
+      "name": "PMS GAUZE BANDAGE SCM X 4M",
+      "price": "6.50",
+      "confidence": 0.76
+    },
+    {
+      "name": "DETTOL 50 ML",
+      "price": "5.30",
+      "confidence": 0.743
+    }
+  ],
+  "total_amount": {
+    "value": "30.68",
+    "confidence": 0.699,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 36.9,
+      "subtotal": null,
+      "total": 30.68,
+      "status": "MISMATCH"
+    }
+  }
+}

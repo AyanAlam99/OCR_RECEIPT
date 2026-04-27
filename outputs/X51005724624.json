@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.817
+  },
+  "date": {
+    "value": "16/03/2018",
+    "confidence": 0.995
+  },
+  "items": [
+    {
+      "name": "Item            Qty  S/Price S/Price   Amount  Tax",
+      "price": "101.76",
+      "confidence": 0.87
+    },
+    {
+      "name": "BESI Y 12 (CQ)",
+      "price": "33.92",
+      "confidence": 0.836
+    }
+  ],
+  "total_amount": {
+    "value": "128.00",
+    "confidence": 0.906,
+    "reconciliation": {
+      "item_sum": 135.68,
+      "subtotal": null,
+      "total": 128.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

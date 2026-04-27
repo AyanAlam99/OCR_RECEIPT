@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "TRI SHAAS SDN BHD (728515-M)",
+    "confidence": 0.815
+  },
+  "date": {
+    "value": "13/03/2017",
+    "confidence": 0.895
+  },
+  "items": [
+    {
+      "name": "EVEREADY 8AT H/D 1015 SW4 AA     EA     .3",
+      "price": "5.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "GST Rate     Amt Excl GST(RM)      Tax(RM)",
+      "price": "0.28",
+      "confidence": 0.869
+    },
+    {
+      "name": "Z = 0%",
+      "price": "0.00",
+      "confidence": 0.743
+    }
+  ],
+  "total_amount": {
+    "value": "5.00",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 5.28,
+      "subtotal": null,
+      "total": 5.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

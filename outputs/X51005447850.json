@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "04/03/2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "WALK",
+      "price": "3.20",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "3.20",
+    "confidence": 0.994,
+    "reconciliation": {
+      "item_sum": 3.2,
+      "subtotal": null,
+      "total": 3.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

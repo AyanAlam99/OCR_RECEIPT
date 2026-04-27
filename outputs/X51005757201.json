@@ -1,0 +1,59 @@
+{
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.801
+  },
+  "date": {
+    "value": "28/02/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "V-CHOR FRA",
+      "price": "16.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "CE 13312 LONG H",
+      "price": "10.45",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "GL HARUMI WASHI",
+      "price": "7.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BL HARUMI WASHI",
+      "price": "7.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "LIDI BROOM W/P",
+      "price": "4.10",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "E-71/MP WATER D",
+      "price": "4.90",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "88.97",
+    "confidence": 0.487,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 52.15,
+      "subtotal": null,
+      "total": 88.97,
+      "status": "MISMATCH"
+    }
+  }
+}

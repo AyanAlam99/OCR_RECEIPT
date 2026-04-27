@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.818
+  },
+  "date": {
+    "value": "27/01/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "Item                   Qty     S/Price   Amount  Tax",
+      "price": "22.26",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "21.00",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 22.26,
+      "subtotal": null,
+      "total": 21.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

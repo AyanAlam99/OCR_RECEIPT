@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "LJAN HING STATIONERY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "27/03/2018",
+    "confidence": 0.889
+  },
+  "items": [
+    {
+      "name": "F/Castal! 187057-75 Tack-t   2 SR",
+      "price": "12.00",
+      "confidence": 0.853
+    }
+  ],
+  "total_amount": {
+    "value": "12.00",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 12.0,
+      "subtotal": null,
+      "total": 12.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

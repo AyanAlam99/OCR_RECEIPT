@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "08/02/2017",
+    "confidence": 0.894
+  },
+  "items": [
+    {
+      "name": "1\" TOWEL ROD",
+      "price": "12.00",
+      "confidence": 0.85
+    },
+    {
+      "name": "3/4\" TOWEL ROD",
+      "price": "8.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "3/4\"TOWEL ROD",
+      "price": "20.00",
+      "confidence": 0.863
+    },
+    {
+      "name": "3/4\"TOWEL ROD",
+      "price": "22.00",
+      "confidence": 0.863
+    },
+    {
+      "name": "25MM X 10 WALL PLUG",
+      "price": "3.50",
+      "confidence": 0.859
+    },
+    {
+      "name": "SANDFLEX SAW",
+      "price": "4.50",
+      "confidence": 0.868
+    },
+    {
+      "name": "SCREW",
+      "price": "7.00",
+      "confidence": 0.851
+    },
+    {
+      "name": "3/4\" V BRACKET",
+      "price": "7.50",
+      "confidence": 0.854
+    },
+    {
+      "name": "1\" S/STEEL ROD",
+      "price": "94.80",
+      "confidence": 0.854
+    },
+    {
+      "name": "3/4\" ALUMINIUM ROD",
+      "price": "98.60",
+      "confidence": 0.863
+    }
+  ],
+  "total_amount": {
+    "value": "277.00",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 277.9,
+      "subtotal": null,
+      "total": 277.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

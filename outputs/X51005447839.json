@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "RESTAURANT JIAWEI",
+    "confidence": 0.827
+  },
+  "date": {
+    "value": "9/3/2018",
+    "confidence": 0.998
+  },
+  "items": [
+    {
+      "name": "F. Hong Kong Sauteed (S)",
+      "price": "0.00",
+      "confidence": 0.663,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Steamed Egg(S)",
+      "price": "0.00",
+      "confidence": 0.661,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Chinese Tea",
+      "price": "1.20",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Rice (B)",
+      "price": "0.00",
+      "confidence": 0.648,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Service Charge                         RM",
+      "price": "0.00",
+      "confidence": 0.661,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "65.20",
+    "confidence": 0.509,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 1.2,
+      "subtotal": null,
+      "total": 65.2,
+      "status": "MISMATCH"
+    }
+  }
+}

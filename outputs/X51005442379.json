@@ -1,0 +1,33 @@
+{
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [
+    {
+      "name": "SR 100100000027-2Meat+ 2 Vege",
+      "price": "8.70",
+      "confidence": 0.851
+    },
+    {
+      "name": "SR 100100000064-Add Vegetable",
+      "price": "0.50",
+      "confidence": 0.858
+    }
+  ],
+  "total_amount": {
+    "value": "9.20",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 9.2,
+      "subtotal": null,
+      "total": 9.2,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

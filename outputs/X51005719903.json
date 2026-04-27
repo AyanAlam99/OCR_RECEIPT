@@ -1,0 +1,41 @@
+{
+  "store_name": {
+    "value": "Gerbang Alaf Restaurants Sdn Bhd",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "11/03/2018",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Level 6, Bangunan TH, Damansara Uptown3",
+      "price": "39.474",
+      "confidence": 0.658,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ChocTop",
+      "price": "4.00",
+      "confidence": 0.668,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "McFlurryOreos",
+      "price": "4.50",
+      "confidence": 0.629,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "0.48",
+    "confidence": 0.59,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 47.97,
+      "subtotal": null,
+      "total": 0.48,
+      "status": "MISMATCH"
+    }
+  }
+}

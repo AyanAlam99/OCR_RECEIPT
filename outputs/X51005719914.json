@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y.(KUCHAI) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "16-03-18",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "EDC                                     RM",
+      "price": "53.30",
+      "confidence": 0.794
+    }
+  ],
+  "total_amount": {
+    "value": "53.30",
+    "confidence": 0.992,
+    "reconciliation": {
+      "item_sum": 53.3,
+      "subtotal": null,
+      "total": 53.3,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

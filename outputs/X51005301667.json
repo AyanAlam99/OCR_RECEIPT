@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "LIGHTROOM GALLERY SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/11/2017",
+    "confidence": 0.996
+  },
+  "items": [
+    {
+      "name": "Sub I 'al          :               RM",
+      "price": "37.55",
+      "confidence": 0.781
+    },
+    {
+      "name": "Service Charge   \u2022.               RM",
+      "price": "0.00",
+      "confidence": 0.822
+    }
+  ],
+  "total_amount": {
+    "value": "39.80",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 37.55,
+      "subtotal": null,
+      "total": 39.8,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

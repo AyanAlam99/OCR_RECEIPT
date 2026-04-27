@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "EVERGREEN LIGHT SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "18/09/2017",
+    "confidence": 0.79
+  },
+  "items": [
+    {
+      "name": "PROBMK 1OW LED 8TICK",
+      "price": "24.52",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "PROBMK 1OW LED 8TICK",
+      "price": "12.26",
+      "confidence": 0.662,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Totel G8T(E)",
+      "price": "1.47",
+      "confidence": 0.656,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Total Incl GST",
+      "price": "26.00",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "THANK YOU GOODB BOLD ARE NOT REFUNDABLE FOR CAEK.",
+      "price": "24.52",
+      "confidence": 0.651,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "24.52",
+    "confidence": 0.502,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 88.77,
+      "subtotal": null,
+      "total": 24.52,
+      "status": "MISMATCH"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "SEN LEE HEONG RESTAURANT",
+    "confidence": 0.819
+  },
+  "date": {
+    "value": "12-01-2018",
+    "confidence": 0.9
+  },
+  "items": [
+    {
+      "name": "FOOD  SR   1",
+      "price": "67.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "TEA POT          SR",
+      "price": "3.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "ROUND ADJ                           RM",
+      "price": "0.02",
+      "confidence": 0.79
+    }
+  ],
+  "total_amount": {
+    "value": "77.40",
+    "confidence": 0.91,
+    "reconciliation": {
+      "item_sum": 70.02,
+      "subtotal": 73.0,
+      "total": 77.4,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "store_name": {
+    "value": "SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "14/03/2018",
+    "confidence": 0.891
+  },
+  "items": [
+    {
+      "name": "WALK",
+      "price": "1.60",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "MAGNUM ALMOND 90ML",
+      "price": "1.60",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WALK",
+      "price": "4.50",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "WALK",
+      "price": "0.50",
+      "confidence": 0.666,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "Change GST Summary     Amount (RM)  Tax (RM)",
+      "price": "12.00",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.6,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 20.2,
+      "subtotal": null,
+      "total": 8.2,
+      "status": "MISMATCH"
+    }
+  }
+}

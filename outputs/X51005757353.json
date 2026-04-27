@@ -1,0 +1,34 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.85
+  },
+  "date": {
+    "value": "24-03-18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "H0/0013CO",
+      "price": "6.50",
+      "confidence": 0.502,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "X  09'9",
+      "price": "6.50",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "12.30",
+    "confidence": 0.999,
+    "reconciliation": {
+      "item_sum": 13.0,
+      "subtotal": null,
+      "total": 12.3,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "UROKO JAPANESE CUISINE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "20/03/2018",
+    "confidence": 0.999
+  },
+  "items": [
+    {
+      "name": "KO NABE INANIWA",
+      "price": "24.00",
+      "confidence": 0.869
+    },
+    {
+      "name": "GREEN TEA @",
+      "price": "1.00",
+      "confidence": 0.854
+    },
+    {
+      "name": "GYOZA 5pCs @",
+      "price": "15.00",
+      "confidence": 0.858
+    },
+    {
+      "name": "GARLIC CHAHAN @     [T",
+      "price": "6.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "ervice Chg",
+      "price": "4.00",
+      "confidence": 0.861
+    }
+  ],
+  "total_amount": {
+    "value": "53.00",
+    "confidence": 0.998,
+    "reconciliation": {
+      "item_sum": 50.0,
+      "subtotal": null,
+      "total": 53.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

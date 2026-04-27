@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "SWEET FOREST CAFE",
+    "confidence": 0.715
+  },
+  "date": {
+    "value": "14-02-2018",
+    "confidence": 0.998
+  },
+  "items": [],
+  "total_amount": {
+    "value": "28.58",
+    "confidence": 0.908
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "ECONSALE",
+    "confidence": 0.829
+  },
+  "date": {
+    "value": "22/03/18",
+    "confidence": 0.896
+  },
+  "items": [
+    {
+      "name": "NR)ES CHOICE SOFT    -",
+      "price": "4.20",
+      "confidence": 0.766
+    },
+    {
+      "name": "NR)ES ICE COOL HI    1",
+      "price": "0.95",
+      "confidence": 0.862
+    }
+  ],
+  "total_amount": {
+    "value": "5.15",
+    "confidence": 0.909,
+    "reconciliation": {
+      "item_sum": 5.15,
+      "subtotal": 5.15,
+      "total": 5.15,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

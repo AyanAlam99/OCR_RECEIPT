@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MALAYSIA",
+    "confidence": 0.714
+  },
+  "date": {
+    "value": "20/03/2018",
+    "confidence": 0.878
+  },
+  "items": [
+    {
+      "name": "Payment",
+      "price": "102.00",
+      "confidence": 0.847
+    }
+  ],
+  "total_amount": {
+    "value": "102.00",
+    "confidence": 0.903,
+    "reconciliation": {
+      "item_sum": 102.0,
+      "subtotal": 102.0,
+      "total": 102.0,
+      "status": "MATCH_SUBTOTAL"
+    }
+  }
+}

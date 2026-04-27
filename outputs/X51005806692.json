@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "GREAT ZONE HOUSEHOLD CENTRE SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "18/02/2018",
+    "confidence": 0.988
+  },
+  "items": [],
+  "total_amount": {
+    "value": "367.30",
+    "confidence": 0.992
+  }
+}

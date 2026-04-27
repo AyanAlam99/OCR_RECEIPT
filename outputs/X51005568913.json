@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "IKANO HANDEL SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "27/07/17",
+    "confidence": 0.986
+  },
+  "items": [
+    {
+      "name": "50346155 BOSTRAK WRD 80X50X18",
+      "price": "538.00",
+      "confidence": 0.854
+    }
+  ],
+  "total_amount": {
+    "value": "538.00",
+    "confidence": 0.908,
+    "reconciliation": {
+      "item_sum": 538.0,
+      "subtotal": null,
+      "total": 538.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "store_name": {
+    "value": "STRICTLY NO CASH REFUND",
+    "confidence": 0.816
+  },
+  "date": {
+    "value": "14-03-18",
+    "confidence": 0.896
+  },
+  "items": [],
+  "total_amount": {
+    "value": "37.10",
+    "confidence": 0.994
+  }
+}

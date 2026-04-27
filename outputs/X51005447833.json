@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "SUN WONG KUT SDN BHD",
+    "confidence": 0.91
+  },
+  "date": {
+    "value": "21/02/18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "Invoice number",
+      "price": "39.54",
+      "confidence": 0.659,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "FuelSave 95",
+      "price": "88.17",
+      "confidence": 0.665,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "88.17",
+    "confidence": 0.491,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 127.71,
+      "subtotal": null,
+      "total": 88.17,
+      "status": "MISMATCH"
+    }
+  }
+}

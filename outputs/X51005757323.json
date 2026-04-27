@@ -1,0 +1,35 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.75
+  },
+  "date": {
+    "value": "26-03-18",
+    "confidence": 0.899
+  },
+  "items": [
+    {
+      "name": "X NASCO SEAL TAPE NST",
+      "price": "19.90",
+      "confidence": 0.649,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "NASCO SEAL TAPE NST S",
+      "price": "19.90",
+      "confidence": 0.67,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "1.58",
+    "confidence": 0.504,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 39.8,
+      "subtotal": null,
+      "total": 1.58,
+      "status": "MISMATCH"
+    }
+  }
+}

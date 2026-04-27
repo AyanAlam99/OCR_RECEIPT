@@ -1,0 +1,17 @@
+{
+  "store_name": {
+    "value": "AS MNTONO I  JER SCOCO",
+    "confidence": 0.717
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "flag": "LOW_CONFIDENCE"
+  }
+}

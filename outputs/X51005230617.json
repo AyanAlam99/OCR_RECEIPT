@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Gerbang Alaf Restaurants Sdn Bhd",
+    "confidence": 0.907
+  },
+  "date": {
+    "value": "18/01/2018",
+    "confidence": 0.888
+  },
+  "items": [
+    {
+      "name": "Leve6, Bangunan TH, Damansara Uptown3",
+      "price": "39.474",
+      "confidence": 0.66,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "ChicMcMuffin",
+      "price": "11.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "M Porridge",
+      "price": "5.60",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    },
+    {
+      "name": "BM 2HotCakes",
+      "price": "10.00",
+      "confidence": 0.669,
+      "flag": "LOW_CONFIDENCE"
+    }
+  ],
+  "total_amount": {
+    "value": "1.51",
+    "confidence": 0.583,
+    "flag": "LOW_CONFIDENCE",
+    "reconciliation": {
+      "item_sum": 66.07,
+      "subtotal": null,
+      "total": 1.51,
+      "status": "MISMATCH"
+    }
+  }
+}

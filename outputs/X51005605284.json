@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.827
+  },
+  "date": {
+    "value": "23/03/2018",
+    "confidence": 0.893
+  },
+  "items": [
+    {
+      "name": "FUJI XEROX EVERYDAY A4 70GSM  SR",
+      "price": "55.00",
+      "confidence": 0.859
+    },
+    {
+      "name": "CANON PG-47BK E400 BLACK FINE( SR",
+      "price": "29.00",
+      "confidence": 0.847
+    }
+  ],
+  "total_amount": {
+    "value": "83.00",
+    "confidence": 0.996,
+    "reconciliation": {
+      "item_sum": 84.0,
+      "subtotal": null,
+      "total": 83.0,
+      "status": "MATCH_TOTAL_WITH_TAX"
+    }
+  }
+}
