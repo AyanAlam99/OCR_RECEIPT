@@ -46,12 +46,11 @@ def main():
 
         out_path = out_dir / (Path(img_path).stem + ".json")
         deliverable = {
-            "store_name": result["store_name"],
-            "date": result["date"],
-            "items": result["items"],
-            "total_amount": result["total_amount"]
-        }
-
+        "store_name":   result["store_name"],
+        "date":         result["date"],
+        "items":        result["items"],
+        "total_amount": result["total_amount"]
+    }
         with open(out_path, "w") as f:
             json.dump(deliverable, f, indent=2)
         print(f" -> Saved: {out_path}")
