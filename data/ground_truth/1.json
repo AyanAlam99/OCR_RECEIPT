@@ -1,0 +1,25 @@
+{
+  "store_name": "TRADER JOE'S",
+  "date": "06-28-2014",
+  "items": [
+    {"name": "R-CARROTS SHREDDED 10 OZ", "price": "1.29"},
+    {"name": "R-CUCUMBERS PERSIAN 1 LB", "price": "1.99"},
+    {"name": "TOMATOES CRUSHED NO SALT", "price": "1.59"},
+    {"name": "TOMATOES WHOLE NO SALT W/BASIL", "price": "1.59"},
+    {"name": "ORGANIC OLD FASHIONED OATMEAL", "price": "2.69"},
+    {"name": "MINI-PEARL TOMATOES", "price": "2.49"},
+    {"name": "PKG SHREDDED MOZZARELLA LITE T", "price": "3.99"},
+    {"name": "EGGS 1 DOZ ORGANIC BROWN", "price": "3.79"},
+    {"name": "BEANS GARBANZO", "price": "0.89"},
+    {"name": "SPROUTED CA STYLE", "price": "2.99"},
+    {"name": "A-AVOCADOS HASS BAG 4CT", "price": "3.99"},
+    {"name": "A-APPLE BAG JAZZ 2 LB", "price": "2.99"},
+    {"name": "A-PEPPER BELL EACH XL RED", "price": "0.99"},
+    {"name": "GROCERY NON TAXABLE", "price": "0.98"},
+    {"name": "BANANAS ORGANIC", "price": "0.87"},
+    {"name": "CREAMY SALTED PEANUT BUTTER", "price": "2.49"},
+    {"name": "WHL WHT PITA BREAD", "price": "1.69"},
+    {"name": "GROCERY NON TAXABLE", "price": "1.38"}
+  ],
+  "total_amount": "38.68"
+}

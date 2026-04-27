@@ -1,0 +1,19 @@
+{
+  "store_name": "WHOLE FOODS MARKET",
+  "date": null,
+  "items": [
+    {"name": "PL TORTILLA'S", "price": "6.99"},
+    {"name": "CAGE FREE ALL WHIT", "price": "3.69"},
+    {"name": "BLACK BEANS", "price": "1.29"},
+    {"name": "Frozen Mangoes 16o", "price": "2.99"},
+    {"name": "Whole Strawberries", "price": "2.99"},
+    {"name": "OG LF COTTAGE CHEE", "price": "3.49"},
+    {"name": "MAHI MAHI FILLETS", "price": "8.99"},
+    {"name": "California Harvest", "price": "2.69"},
+    {"name": "PLUMS BLACK CV", "price": "2.15"},
+    {"name": "NHP SLICED OVEN RO", "price": "3.99"},
+    {"name": "NHP SLICED HICKORY", "price": "3.99"},
+    {"name": "GALA APPLES OG", "price": "3.26"}
+  ],
+  "total_amount": "45.44"
+}

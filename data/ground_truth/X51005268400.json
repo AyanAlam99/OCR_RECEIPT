@@ -1,0 +1,8 @@
+{
+  "store_name": "RESTORAN HASSANBISTRO",
+  "date": "12/28/2017",
+  "items": [
+    {"name": "MAKANAN", "price": "15.00"}
+  ],
+  "total_amount": "15.00"
+}

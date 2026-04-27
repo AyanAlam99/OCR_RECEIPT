@@ -1,0 +1,12 @@
+{
+  "store_name": "99 SPEED MART",
+  "date": "20-11-17",
+  "items": [
+    {"name": "PEDIASURE COMPLETE 53S", "price": "117.90"},
+    {"name": "MILO 2KG", "price": "34.90"},
+    {"name": "ZING HEING OAT & WHEAT", "price": "4.10"},
+    {"name": "DISNEY DS112 WIDE NECK", "price": "5.89"},
+    {"name": "JOHNSONS PH5.5 2IN1 BO", "price": "6.99"}
+  ],
+  "total_amount": "169.80"
+}

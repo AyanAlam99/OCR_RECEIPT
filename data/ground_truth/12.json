@@ -1,0 +1,10 @@
+{
+  "store_name": "WAL-MART",
+  "date": "10/20/07",
+  "items": [
+    {"name": "SW FIGURES", "price": "6.63"},
+    {"name": "TOOTHBRUSH", "price": "0.96"},
+    {"name": "WOMEN SLIPPE", "price": "9.86"}
+  ],
+  "total_amount": "18.75"
+}

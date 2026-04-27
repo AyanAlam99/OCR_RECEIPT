@@ -1,0 +1,16 @@
+{
+  "store_name": "COSTCO",
+  "date": "04/20/2016",
+  "items": [
+    {"name": "FF BS BREAST", "price": "23.99"},
+    {"name": "KS DICED TOM", "price": "6.49"},
+    {"name": "JACKORGSALSA", "price": "2.97"},
+    {"name": "18CT EGGS", "price": "12.87"},
+    {"name": "GRAPE TOMATO", "price": "6.29"},
+    {"name": "ECO HALF PAN", "price": "6.49"},
+    {"name": "GRND TURKEY", "price": "18.47"},
+    {"name": "CHPD ONION", "price": "3.59"},
+    {"name": "MONT JACK 2#", "price": "4.45"}
+  ],
+  "total_amount": "89.13"
+}

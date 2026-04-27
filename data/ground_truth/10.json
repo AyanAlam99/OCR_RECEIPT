@@ -1,0 +1,21 @@
+{
+  "store_name": "SPAR",
+  "date": "23/02/21",
+  "items": [
+    {"name": "LAZENBY WORCESTER SAUCE 125ML", "price": "17.99"},
+    {"name": "MILKY BAR CHOC 80GR", "price": "16.99"},
+    {"name": "SMOKED VIENNAS 500GR", "price": "33.99"},
+    {"name": "PEALED PEACHES 400G", "price": "82.99"},
+    {"name": "MEDITERRANEAN MIX 1KG", "price": "44.99"},
+    {"name": "SPAR COOKING OIL 375ML", "price": "14.99"},
+    {"name": "F/L ENGLISH CUCUMB 1'S", "price": "12.99"},
+    {"name": "NESTLE AERO 85GR", "price": "20.99"},
+    {"name": "CADBURY DAIRY MI 80GR", "price": "16.99"},
+    {"name": "GRAPES MIXED TUB", "price": "24.99"},
+    {"name": "TASTIC RICE 500GR", "price": "11.99"},
+    {"name": "BLACK CAT SMOOTH 270GR", "price": "27.99"},
+    {"name": "CARRIER BAG 24L 1'S", "price": "0.75"},
+    {"name": "BANANAS LOOSE", "price": "9.53"}
+  ],
+  "total_amount": "338.16"
+}

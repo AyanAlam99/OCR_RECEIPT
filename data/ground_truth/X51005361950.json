@@ -1,0 +1,9 @@
+{
+  "store_name": "99 SPEED MART",
+  "date": "24-01-18",
+  "items": [
+    {"name": "GARBAGE BAG (BLUE) 74C", "price": "1.25"},
+    {"name": "GARBAGE BAG (GREEN) 74", "price": "1.25"}
+  ],
+  "total_amount": "2.50"
+}

@@ -1,0 +1,9 @@
+{
+  "store_name": "BENS INDEPENDENT GROCER",
+  "date": "09/03/18",
+  "items": [
+    {"name": "Evian Mineral Water 6x1.25L", "price": "107.00"},
+    {"name": "Fresh Cut Honey Jackfruit Peeled 400g", "price": "26.70"}
+  ],
+  "total_amount": "133.70"
+}
